@@ -1,0 +1,1542 @@
+[
+  {
+    "platform": "jinritemai",
+    "name": "1、售后列表接口，可以支持多种筛选规则，详情见请求参数。（afterSale.List）",
+    "code": "jinritemai.afterSale.List",
+    "http_method": "POST",
+    "path": "/afterSale/List",
+    "method_name": "afterSale.List",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "一期暂无平台推荐策略能力，需三方自行制定。（open.getOrderRecoveryRecommendation）",
+    "code": "jinritemai.open.getOrderRecoveryRecommendation",
+    "http_method": "POST",
+    "path": "/open/getOrderRecoveryRecommendation",
+    "method_name": "open.getOrderRecoveryRecommendation",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "使用场景：（afterSale.rejectReasonCodeList）",
+    "code": "jinritemai.afterSale.rejectReasonCodeList",
+    "http_method": "POST",
+    "path": "/afterSale/rejectReasonCodeList",
+    "method_name": "afterSale.rejectReasonCodeList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "提供给商家获取售后单详情信息（afterSale.Detail）",
+    "code": "jinritemai.afterSale.Detail",
+    "http_method": "POST",
+    "path": "/afterSale/Detail",
+    "method_name": "afterSale.Detail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "核心入口，用于对单一退货的订单进行全面评估（second.volcengineRetainOrder）",
+    "code": "jinritemai.second.volcengineRetainOrder",
+    "http_method": "POST",
+    "path": "/second/volcengineRetainOrder",
+    "method_name": "second.volcengineRetainOrder",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "使用场景：批量查询商家抖店商品信息（product.listV2）",
+    "code": "jinritemai.product.listV2",
+    "http_method": "POST",
+    "path": "/product/listV2",
+    "method_name": "product.listV2",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "兼容老品牌id转为新品牌id（brand.convert）",
+    "code": "jinritemai.brand.convert",
+    "http_method": "POST",
+    "path": "/brand/convert",
+    "method_name": "brand.convert",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "分页查询模板列表（product.getComponentTemplate）",
+    "code": "jinritemai.product.getComponentTemplate",
+    "http_method": "POST",
+    "path": "/product/getComponentTemplate",
+    "method_name": "product.getComponentTemplate",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品信息质量分查询API（product.qualityDetail）",
+    "code": "jinritemai.product.qualityDetail",
+    "http_method": "POST",
+    "path": "/product/qualityDetail",
+    "method_name": "product.qualityDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品属性推荐（product.recommendProperties）",
+    "code": "jinritemai.product.recommendProperties",
+    "http_method": "POST",
+    "path": "/product/recommendProperties",
+    "method_name": "product.recommendProperties",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品标题热搜词推荐过滤（trade.TopSearchQueryFilter）",
+    "code": "jinritemai.trade.TopSearchQueryFilter",
+    "http_method": "POST",
+    "path": "/trade/TopSearchQueryFilter",
+    "method_name": "trade.TopSearchQueryFilter",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品标题热搜词推荐（trade.TopSearchQueryPredict）",
+    "code": "jinritemai.trade.TopSearchQueryPredict",
+    "http_method": "POST",
+    "path": "/trade/TopSearchQueryPredict",
+    "method_name": "trade.TopSearchQueryPredict",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品每日诊断任务查询API（product.qualityTask）",
+    "code": "jinritemai.product.qualityTask",
+    "http_method": "POST",
+    "path": "/product/qualityTask",
+    "method_name": "product.qualityTask",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品类目预测（product.GetRecommendCategory）",
+    "code": "jinritemai.product.GetRecommendCategory",
+    "http_method": "POST",
+    "path": "/product/GetRecommendCategory",
+    "method_name": "product.GetRecommendCategory",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品维度查询利益点和库存建议（promise.QueryBenefitTractionByProductId）",
+    "code": "jinritemai.promise.QueryBenefitTractionByProductId",
+    "http_method": "POST",
+    "path": "/promise/QueryBenefitTractionByProductId",
+    "method_name": "promise.QueryBenefitTractionByProductId",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "店铺开启尺码表自动优化（product.openAutoSizeTemplateOptimize）",
+    "code": "jinritemai.product.openAutoSizeTemplateOptimize",
+    "http_method": "POST",
+    "path": "/product/openAutoSizeTemplateOptimize",
+    "method_name": "product.openAutoSizeTemplateOptimize",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "店铺自播达人（buyin.queryShopSelfAuthors）",
+    "code": "jinritemai.buyin.queryShopSelfAuthors",
+    "http_method": "POST",
+    "path": "/buyin/queryShopSelfAuthors",
+    "method_name": "buyin.queryShopSelfAuthors",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "扫描获取商机中心全量线索信息（product.isv/scanClue）",
+    "code": "jinritemai.product.isv.scanClue",
+    "http_method": "POST",
+    "path": "/product/isv/scanClue",
+    "method_name": "product.isv.scanClue",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量查询搭配详情（product.batchGetCombination）",
+    "code": "jinritemai.product.batchGetCombination",
+    "http_method": "POST",
+    "path": "/product/batchGetCombination",
+    "method_name": "product.batchGetCombination",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量获取可分发在架线索列表（productClue.distributableCluelist）",
+    "code": "jinritemai.productClue.distributableCluelist",
+    "http_method": "POST",
+    "path": "/productClue/distributableCluelist",
+    "method_name": "productClue.distributableCluelist",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "提供给isv，根据店铺获取线索（product.isv/getClueList）",
+    "code": "jinritemai.product.isv.getClueList",
+    "http_method": "POST",
+    "path": "/product/isv/getClueList",
+    "method_name": "product.isv.getClueList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "是否曝光商品（open.isExposureProducts）",
+    "code": "jinritemai.open.isExposureProducts",
+    "http_method": "POST",
+    "path": "/open/isExposureProducts",
+    "method_name": "open.isExposureProducts",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询SPU（根据关键属性/SPU ID）（spu.getSpu）",
+    "code": "jinritemai.spu.getSpu",
+    "http_method": "POST",
+    "path": "/spu/getSpu",
+    "method_name": "spu.getSpu",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询商品详情（product.detail）",
+    "code": "jinritemai.product.detail",
+    "http_method": "POST",
+    "path": "/product/detail",
+    "method_name": "product.detail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询商家是否已开启AI生图托管（product.getShopHostingInfo）",
+    "code": "jinritemai.product.getShopHostingInfo",
+    "http_method": "POST",
+    "path": "/product/getShopHostingInfo",
+    "method_name": "product.getShopHostingInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询属性项的属性值（product.getCategoryPropertyValue）",
+    "code": "jinritemai.product.getCategoryPropertyValue",
+    "http_method": "POST",
+    "path": "/product/getCategoryPropertyValue",
+    "method_name": "product.getCategoryPropertyValue",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺商品质量情况，对标后台商品成长中心（product.qualityList）",
+    "code": "jinritemai.product.qualityList",
+    "http_method": "POST",
+    "path": "/product/qualityList",
+    "method_name": "product.qualityList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺尺码表自动优化配置（是否允许出自动优化弹窗（product.queryAutoSizeTemplateOptimizeConfig）",
+    "code": "jinritemai.product.queryAutoSizeTemplateOptimizeConfig",
+    "http_method": "POST",
+    "path": "/product/queryAutoSizeTemplateOptimizeConfig",
+    "method_name": "product.queryAutoSizeTemplateOptimizeConfig",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺属性自动优化配置（是否开启（product.queryPropAutoOptimizeConfig）",
+    "code": "jinritemai.product.queryPropAutoOptimizeConfig",
+    "http_method": "POST",
+    "path": "/product/queryPropAutoOptimizeConfig",
+    "method_name": "product.queryPropAutoOptimizeConfig",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺维度利益点和库存推荐（promise.QueryBenefitTraction）",
+    "code": "jinritemai.promise.QueryBenefitTraction",
+    "http_method": "POST",
+    "path": "/promise/QueryBenefitTraction",
+    "method_name": "promise.QueryBenefitTraction",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询异步执行的根任务列表（superm.product/queryProductSyncTask）",
+    "code": "jinritemai.superm.product.queryProductSyncTask",
+    "http_method": "POST",
+    "path": "/superm/product/queryProductSyncTask",
+    "method_name": "superm.product.queryProductSyncTask",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "根据ISBN查询书名（spu.queryBookNameByISBN）",
+    "code": "jinritemai.spu.queryBookNameByISBN",
+    "http_method": "POST",
+    "path": "/spu/queryBookNameByISBN",
+    "method_name": "spu.queryBookNameByISBN",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "根据商品信息推荐商品标题相关信息（product.getRecommendName）",
+    "code": "jinritemai.product.getRecommendName",
+    "http_method": "POST",
+    "path": "/product/getRecommendName",
+    "method_name": "product.getRecommendName",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "根据类目id获取可选品牌（brand.list）",
+    "code": "jinritemai.brand.list",
+    "http_method": "POST",
+    "path": "/brand/list",
+    "method_name": "brand.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "检索SPU（spu.QuerySpu）",
+    "code": "jinritemai.spu.QuerySpu",
+    "http_method": "POST",
+    "path": "/spu/QuerySpu",
+    "method_name": "spu.QuerySpu",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商品sku列表（sku.list）",
+    "code": "jinritemai.sku.list",
+    "http_method": "POST",
+    "path": "/sku/list",
+    "method_name": "sku.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商品sku详情（sku.detail）",
+    "code": "jinritemai.sku.detail",
+    "http_method": "POST",
+    "path": "/sku/detail",
+    "method_name": "sku.detail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商品天级指标数据（compass.CommonProductSaleDataByDay）",
+    "code": "jinritemai.compass.CommonProductSaleDataByDay",
+    "http_method": "POST",
+    "path": "/compass/CommonProductSaleDataByDay",
+    "method_name": "compass.CommonProductSaleDataByDay",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商品生命周期标签（product.batchSearchDiaProductInfo）",
+    "code": "jinritemai.product.batchSearchDiaProductInfo",
+    "http_method": "POST",
+    "path": "/product/batchSearchDiaProductInfo",
+    "method_name": "product.batchSearchDiaProductInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商品相关店铺维度的规则（product.getProductShopRule）",
+    "code": "jinritemai.product.getProductShopRule",
+    "http_method": "POST",
+    "path": "/product/getProductShopRule",
+    "method_name": "product.getProductShopRule",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商家可选类目（product.getCategories）",
+    "code": "jinritemai.product.getCategories",
+    "http_method": "POST",
+    "path": "/product/getCategories",
+    "method_name": "product.getCategories",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取店铺发品限额，当前包括单店铺、单日发品限额（product.getPublishProductLimit）",
+    "code": "jinritemai.product.getPublishProductLimit",
+    "http_method": "POST",
+    "path": "/product/getPublishProductLimit",
+    "method_name": "product.getPublishProductLimit",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取级联属性，当前属性有下级属性值，选中当前属性值，通过此接口请求下级级联属性值（product.getCascadeValue）",
+    "code": "jinritemai.product.getCascadeValue",
+    "http_method": "POST",
+    "path": "/product/getCascadeValue",
+    "method_name": "product.getCascadeValue",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "通过前缀匹配召回品牌信息（brand.getSug）",
+    "code": "jinritemai.brand.getSug",
+    "http_method": "POST",
+    "path": "/brand/getSug",
+    "method_name": "brand.getSug",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商家ERP获取店铺下的药剂师（medicine.getShopDruggist）",
+    "code": "jinritemai.medicine.getShopDruggist",
+    "http_method": "POST",
+    "path": "/medicine/getShopDruggist",
+    "method_name": "medicine.getShopDruggist",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取成员有权限的门店（medicine.getShopMemberAuthStoreIds）",
+    "code": "jinritemai.medicine.getShopMemberAuthStoreIds",
+    "http_method": "POST",
+    "path": "/medicine/getShopMemberAuthStoreIds",
+    "method_name": "medicine.getShopMemberAuthStoreIds",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "服务商确认（resale.order/supplierConfirm）",
+    "code": "jinritemai.resale.order.supplierConfirm",
+    "http_method": "POST",
+    "path": "/resale/order/supplierConfirm",
+    "method_name": "resale.order.supplierConfirm",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获得订单详情（recycle.buyerGetOrderDetail）",
+    "code": "jinritemai.recycle.buyerGetOrderDetail",
+    "http_method": "POST",
+    "path": "/recycle/buyerGetOrderDetail",
+    "method_name": "recycle.buyerGetOrderDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "库存批量同步接口（sku.syncStockBatch）",
+    "code": "jinritemai.sku.syncStockBatch",
+    "http_method": "POST",
+    "path": "/sku/syncStockBatch",
+    "method_name": "sku.syncStockBatch",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量查询区域仓（warehouse.list）",
+    "code": "jinritemai.warehouse.list",
+    "http_method": "POST",
+    "path": "/warehouse/list",
+    "method_name": "warehouse.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询区域仓（warehouse.info）",
+    "code": "jinritemai.warehouse.info",
+    "http_method": "POST",
+    "path": "/warehouse/info",
+    "method_name": "warehouse.info",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询商品规格库存（sku.stockNum）",
+    "code": "jinritemai.sku.stockNum",
+    "http_method": "POST",
+    "path": "/sku/stockNum",
+    "method_name": "sku.stockNum",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "二级承接页初始化（supplyChain.CouponZoneFeeds）",
+    "code": "jinritemai.supplyChain.CouponZoneFeeds",
+    "http_method": "POST",
+    "path": "/supplyChain/CouponZoneFeeds",
+    "method_name": "supplyChain.CouponZoneFeeds",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "单个获取门店信息（shop.getStoreDetail）",
+    "code": "jinritemai.shop.getStoreDetail",
+    "http_method": "POST",
+    "path": "/shop/getStoreDetail",
+    "method_name": "shop.getStoreDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量查询商品锁（product.batchGetProductLocks）",
+    "code": "jinritemai.product.batchGetProductLocks",
+    "http_method": "POST",
+    "path": "/product/batchGetProductLocks",
+    "method_name": "product.batchGetProductLocks",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量查询限购模板（trade.batchGetTradeLimitTemplateList）",
+    "code": "jinritemai.trade.batchGetTradeLimitTemplateList",
+    "http_method": "POST",
+    "path": "/trade/batchGetTradeLimitTemplateList",
+    "method_name": "trade.batchGetTradeLimitTemplateList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量获取活动信息（max.activities）",
+    "code": "jinritemai.max.activities",
+    "http_method": "POST",
+    "path": "/max/activities",
+    "method_name": "max.activities",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "暂停营业（shop.storeSuspend）",
+    "code": "jinritemai.shop.storeSuspend",
+    "http_method": "POST",
+    "path": "/shop/storeSuspend",
+    "method_name": "shop.storeSuspend",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询商家评分（shop.reputation）",
+    "code": "jinritemai.shop.reputation",
+    "http_method": "POST",
+    "path": "/shop/reputation",
+    "method_name": "shop.reputation",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺体验分（shop.getExperienceScore）",
+    "code": "jinritemai.shop.getExperienceScore",
+    "http_method": "POST",
+    "path": "/shop/getExperienceScore",
+    "method_name": "shop.getExperienceScore",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取体验分商品综合评分商品列表（expScore.getDsrDetailProdList）",
+    "code": "jinritemai.expScore.getDsrDetailProdList",
+    "http_method": "POST",
+    "path": "/expScore/getDsrDetailProdList",
+    "method_name": "expScore.getDsrDetailProdList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商家推广链接接口（member.getShopShortLink）",
+    "code": "jinritemai.member.getShopShortLink",
+    "http_method": "POST",
+    "path": "/member/getShopShortLink",
+    "method_name": "member.getShopShortLink",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "门店恢复营业（shop.unsuspendStore）",
+    "code": "jinritemai.shop.unsuspendStore",
+    "http_method": "POST",
+    "path": "/shop/unsuspendStore",
+    "method_name": "shop.unsuspendStore",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "店铺装修-页面管理（shop.openShopPageManagementList）",
+    "code": "jinritemai.shop.openShopPageManagementList",
+    "http_method": "POST",
+    "path": "/shop/openShopPageManagementList",
+    "method_name": "shop.openShopPageManagementList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "店铺装修类目操作接口（shop.marketCategoryOperate）",
+    "code": "jinritemai.shop.marketCategoryOperate",
+    "http_method": "POST",
+    "path": "/shop/marketCategoryOperate",
+    "method_name": "shop.marketCategoryOperate",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺的类目信息（shop.marketCategoryQuery）",
+    "code": "jinritemai.shop.marketCategoryQuery",
+    "http_method": "POST",
+    "path": "/shop/marketCategoryQuery",
+    "method_name": "shop.marketCategoryQuery",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "1、支持ISV查询当前商家可用物流公司列表;（order.queryLogisticsCompanyList）",
+    "code": "jinritemai.order.queryLogisticsCompanyList",
+    "http_method": "POST",
+    "path": "/order/queryLogisticsCompanyList",
+    "method_name": "order.queryLogisticsCompanyList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "四级地址查询接口（logistics.getDistrict）",
+    "code": "jinritemai.logistics.getDistrict",
+    "http_method": "POST",
+    "path": "/logistics/getDistrict",
+    "method_name": "logistics.getDistrict",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "回收服务商查询字节回收类目（logistics.QueryRecycleCateByLevelForPaging）",
+    "code": "jinritemai.logistics.QueryRecycleCateByLevelForPaging",
+    "http_method": "POST",
+    "path": "/logistics/QueryRecycleCateByLevelForPaging",
+    "method_name": "logistics.QueryRecycleCateByLevelForPaging",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询商家自定义区域数据（logistics.customTemplateList）",
+    "code": "jinritemai.logistics.customTemplateList",
+    "http_method": "POST",
+    "path": "/logistics/customTemplateList",
+    "method_name": "logistics.customTemplateList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询订单包裹物流（order.queryOrderLogistics）",
+    "code": "jinritemai.order.queryOrderLogistics",
+    "http_method": "POST",
+    "path": "/order/queryOrderLogistics",
+    "method_name": "order.queryOrderLogistics",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取快递公司列表（order.logisticsCompanyList）",
+    "code": "jinritemai.order.logisticsCompanyList",
+    "http_method": "POST",
+    "path": "/order/logisticsCompanyList",
+    "method_name": "order.logisticsCompanyList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取运费模板列表（freightTemplate.list）",
+    "code": "jinritemai.freightTemplate.list",
+    "http_method": "POST",
+    "path": "/freightTemplate/list",
+    "method_name": "freightTemplate.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取运费模板详情（freightTemplate.detail）",
+    "code": "jinritemai.freightTemplate.detail",
+    "http_method": "POST",
+    "path": "/freightTemplate/detail",
+    "method_name": "freightTemplate.detail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "以旧换新隐私号接通信息查询（resale.order/queryOperationOrderCallLog）",
+    "code": "jinritemai.resale.order.queryOperationOrderCallLog",
+    "http_method": "POST",
+    "path": "/resale/order/queryOperationOrderCallLog",
+    "method_name": "resale.order.queryOperationOrderCallLog",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "同步服务范围数据（gis.serviceArea/sync）",
+    "code": "jinritemai.gis.serviceArea.sync",
+    "http_method": "POST",
+    "path": "/gis/serviceArea/sync",
+    "method_name": "gis.serviceArea.sync",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询虚拟号是否抖音平台（logistics.checkDYVirtualTel）",
+    "code": "jinritemai.logistics.checkDYVirtualTel",
+    "http_method": "POST",
+    "path": "/logistics/checkDYVirtualTel",
+    "method_name": "logistics.checkDYVirtualTel",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询预校验结果接口（logistics.getAiArbitration）",
+    "code": "jinritemai.logistics.getAiArbitration",
+    "http_method": "POST",
+    "path": "/logistics/getAiArbitration",
+    "method_name": "logistics.getAiArbitration",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取物流服务商对应账户的资金日账单（logistics.queryCjAccountFLowFIleUrl）",
+    "code": "jinritemai.logistics.queryCjAccountFLowFIleUrl",
+    "http_method": "POST",
+    "path": "/logistics/queryCjAccountFLowFIleUrl",
+    "method_name": "logistics.queryCjAccountFLowFIleUrl",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "行业服务操作工单（install.ticket/operateIndustryTicket）",
+    "code": "jinritemai.install.ticket.operateIndustryTicket",
+    "http_method": "POST",
+    "path": "/install/ticket/operateIndustryTicket",
+    "method_name": "install.ticket.operateIndustryTicket",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询service列表（openCloud.backendService/list）",
+    "code": "jinritemai.openCloud.backendService.list",
+    "http_method": "POST",
+    "path": "/openCloud/backendService/list",
+    "method_name": "openCloud.backendService.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询容器服务详情（openCloud.containerService/detail）",
+    "code": "jinritemai.openCloud.containerService.detail",
+    "http_method": "POST",
+    "path": "/openCloud/containerService/detail",
+    "method_name": "openCloud.containerService.detail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询镜像列表（openCloud.v1/imageVersion/list）",
+    "code": "jinritemai.openCloud.v1.imageVersion.list",
+    "http_method": "POST",
+    "path": "/openCloud/v1/imageVersion/list",
+    "method_name": "openCloud.v1.imageVersion.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "投稿短视频（shopVideo.publishVideo）",
+    "code": "jinritemai.shopVideo.publishVideo",
+    "http_method": "POST",
+    "path": "/shopVideo/publishVideo",
+    "method_name": "shopVideo.publishVideo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "挂车视频预校验接口（shopVideo.accountShoppingCartPrecheck）",
+    "code": "jinritemai.shopVideo.accountShoppingCartPrecheck",
+    "http_method": "POST",
+    "path": "/shopVideo/accountShoppingCartPrecheck",
+    "method_name": "shopVideo.accountShoppingCartPrecheck",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "搜索图文（shopVideo.searchImageText）",
+    "code": "jinritemai.shopVideo.searchImageText",
+    "http_method": "POST",
+    "path": "/shopVideo/searchImageText",
+    "method_name": "shopVideo.searchImageText",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询加暗水印任务（shopVideo.getHiddenWaterMarkTask）",
+    "code": "jinritemai.shopVideo.getHiddenWaterMarkTask",
+    "http_method": "POST",
+    "path": "/shopVideo/getHiddenWaterMarkTask",
+    "method_name": "shopVideo.getHiddenWaterMarkTask",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询已投稿短视频列表（shopVideo.listVideo）",
+    "code": "jinritemai.shopVideo.listVideo",
+    "http_method": "POST",
+    "path": "/shopVideo/listVideo",
+    "method_name": "shopVideo.listVideo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺下所有账号信息（shopVideo.getShopAccountInfo）",
+    "code": "jinritemai.shopVideo.getShopAccountInfo",
+    "http_method": "POST",
+    "path": "/shopVideo/getShopAccountInfo",
+    "method_name": "shopVideo.getShopAccountInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询投稿需要的信息（shopVideo.getInfoForPublish）",
+    "code": "jinritemai.shopVideo.getInfoForPublish",
+    "http_method": "POST",
+    "path": "/shopVideo/getInfoForPublish",
+    "method_name": "shopVideo.getInfoForPublish",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询短视频可关联商品列表（shopVideo.listRelatableProduct）",
+    "code": "jinritemai.shopVideo.listRelatableProduct",
+    "http_method": "POST",
+    "path": "/shopVideo/listRelatableProduct",
+    "method_name": "shopVideo.listRelatableProduct",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询短视频数据接口（second.ecomInsight/queryShortVideoData）",
+    "code": "jinritemai.second.ecomInsight.queryShortVideoData",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/queryShortVideoData",
+    "method_name": "second.ecomInsight.queryShortVideoData",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询视频列表（shopVideo.searchItem）",
+    "code": "jinritemai.shopVideo.searchItem",
+    "http_method": "POST",
+    "path": "/shopVideo/searchItem",
+    "method_name": "shopVideo.searchItem",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询话题信息（shopVideo.getSugWords）",
+    "code": "jinritemai.shopVideo.getSugWords",
+    "http_method": "POST",
+    "path": "/shopVideo/getSugWords",
+    "method_name": "shopVideo.getSugWords",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取task列表（second.ecomInsight/taskList）",
+    "code": "jinritemai.second.ecomInsight.taskList",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/taskList",
+    "method_name": "second.ecomInsight.taskList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取主图视频榜单接口（second.videoTop/mainPicVideo）",
+    "code": "jinritemai.second.videoTop.mainPicVideo",
+    "http_method": "POST",
+    "path": "/second/videoTop/mainPicVideo",
+    "method_name": "second.videoTop.mainPicVideo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取任务结果（second.ecomInsight/getAigcTaskResult）",
+    "code": "jinritemai.second.ecomInsight.getAigcTaskResult",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/getAigcTaskResult",
+    "method_name": "second.ecomInsight.getAigcTaskResult",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取任务结果（second.ecomInsight/getTaskResult）",
+    "code": "jinritemai.second.ecomInsight.getTaskResult",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/getTaskResult",
+    "method_name": "second.ecomInsight.getTaskResult",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取任务详情（second.ecomInsight/taskDetail）",
+    "code": "jinritemai.second.ecomInsight.taskDetail",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/taskDetail",
+    "method_name": "second.ecomInsight.taskDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取任务账单详情（second.ecomInsight/getTaskBillDetail）",
+    "code": "jinritemai.second.ecomInsight.getTaskBillDetail",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/getTaskBillDetail",
+    "method_name": "second.ecomInsight.getTaskBillDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取图文音乐列表（shopVideo.getImageTextMusic）",
+    "code": "jinritemai.shopVideo.getImageTextMusic",
+    "http_method": "POST",
+    "path": "/shopVideo/getImageTextMusic",
+    "method_name": "shopVideo.getImageTextMusic",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取搜后承接商品列表（shopVideo.getAfterWatchRelatedProducts）",
+    "code": "jinritemai.shopVideo.getAfterWatchRelatedProducts",
+    "http_method": "POST",
+    "path": "/shopVideo/getAfterWatchRelatedProducts",
+    "method_name": "shopVideo.getAfterWatchRelatedProducts",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取活体检测结果（second.ecomInsight/getVisualValidateResult）",
+    "code": "jinritemai.second.ecomInsight.getVisualValidateResult",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/getVisualValidateResult",
+    "method_name": "second.ecomInsight.getVisualValidateResult",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取短视频榜单（second.videoTop/shortVideo）",
+    "code": "jinritemai.second.videoTop.shortVideo",
+    "http_method": "POST",
+    "path": "/second/videoTop/shortVideo",
+    "method_name": "second.videoTop.shortVideo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "1、本接口用于查询达人视角下单个或批量推广商品的详情；（buyin.kolProductsDetail）",
+    "code": "jinritemai.buyin.kolProductsDetail",
+    "http_method": "POST",
+    "path": "/buyin/kolProductsDetail",
+    "method_name": "buyin.kolProductsDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品定向计划查询（buyin.orienPlanList）",
+    "code": "jinritemai.buyin.orienPlanList",
+    "http_method": "POST",
+    "path": "/buyin/orienPlanList",
+    "method_name": "buyin.orienPlanList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品状态查询（buyin.materialsProductStatus）",
+    "code": "jinritemai.buyin.materialsProductStatus",
+    "http_method": "POST",
+    "path": "/buyin/materialsProductStatus",
+    "method_name": "buyin.materialsProductStatus",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品选品来源转链（buyin.instPickSourceConvert）",
+    "code": "jinritemai.buyin.instPickSourceConvert",
+    "http_method": "POST",
+    "path": "/buyin/instPickSourceConvert",
+    "method_name": "buyin.instPickSourceConvert",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "抖客获取近30天内奖励订单（buyin.doukeRewardOrders）",
+    "code": "jinritemai.buyin.doukeRewardOrders",
+    "http_method": "POST",
+    "path": "/buyin/doukeRewardOrders",
+    "method_name": "buyin.doukeRewardOrders",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "支持商家通过接口对已经开启推广的商品，查询商品配置的策略（buyin.promotionStrategyList）",
+    "code": "jinritemai.buyin.promotionStrategyList",
+    "http_method": "POST",
+    "path": "/buyin/promotionStrategyList",
+    "method_name": "buyin.promotionStrategyList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询定向计划作者列表（buyin.orienPlanAuthors）",
+    "code": "jinritemai.buyin.orienPlanAuthors",
+    "http_method": "POST",
+    "path": "/buyin/orienPlanAuthors",
+    "method_name": "buyin.orienPlanAuthors",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询抖客直播间分销订单（buyin.instituteOrderAds）",
+    "code": "jinritemai.buyin.instituteOrderAds",
+    "http_method": "POST",
+    "path": "/buyin/instituteOrderAds",
+    "method_name": "buyin.instituteOrderAds",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询联盟订单明细（alliance.getOrderList）",
+    "code": "jinritemai.alliance.getOrderList",
+    "http_method": "POST",
+    "path": "/alliance/getOrderList",
+    "method_name": "alliance.getOrderList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "检索精选联盟商品，需达人/抖客授权（buyin.kolMaterialsProductsSearch）",
+    "code": "jinritemai.buyin.kolMaterialsProductsSearch",
+    "http_method": "POST",
+    "path": "/buyin/kolMaterialsProductsSearch",
+    "method_name": "buyin.kolMaterialsProductsSearch",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "直播间分销物料查询（buyin.liveShareMaterial）",
+    "code": "jinritemai.buyin.liveShareMaterial",
+    "http_method": "POST",
+    "path": "/buyin/liveShareMaterial",
+    "method_name": "buyin.liveShareMaterial",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "类目查询（alliance.materialsProductCategory）",
+    "code": "jinritemai.alliance.materialsProductCategory",
+    "http_method": "POST",
+    "path": "/alliance/materialsProductCategory",
+    "method_name": "alliance.materialsProductCategory",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "联盟商家-查询店铺联盟推广（buyin.queryShopAllianceProducts）",
+    "code": "jinritemai.buyin.queryShopAllianceProducts",
+    "http_method": "POST",
+    "path": "/buyin/queryShopAllianceProducts",
+    "method_name": "buyin.queryShopAllianceProducts",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商家的联盟订单（buyin.queryShopAllianceOrder）",
+    "code": "jinritemai.buyin.queryShopAllianceOrder",
+    "http_method": "POST",
+    "path": "/buyin/queryShopAllianceOrder",
+    "method_name": "buyin.queryShopAllianceOrder",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取机构信息（buyin.institutionInfo）",
+    "code": "jinritemai.buyin.institutionInfo",
+    "http_method": "POST",
+    "path": "/buyin/institutionInfo",
+    "method_name": "buyin.institutionInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取达人直播间分享链接（buyin.kolLiveShare）",
+    "code": "jinritemai.buyin.kolLiveShare",
+    "http_method": "POST",
+    "path": "/buyin/kolLiveShare",
+    "method_name": "buyin.kolLiveShare",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "达人抖客红包详情（buyin.distributionRedpackDetailList）",
+    "code": "jinritemai.buyin.distributionRedpackDetailList",
+    "http_method": "POST",
+    "path": "/buyin/distributionRedpackDetailList",
+    "method_name": "buyin.distributionRedpackDetailList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "选品订单明细查询接口（buyin.instituteOrderPick）",
+    "code": "jinritemai.buyin.instituteOrderPick",
+    "http_method": "POST",
+    "path": "/buyin/instituteOrderPick",
+    "method_name": "buyin.instituteOrderPick",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "分页查询尺寸模板（supplyCenter.cargo/getComponentTemplate）",
+    "code": "jinritemai.supplyCenter.cargo.getComponentTemplate",
+    "http_method": "POST",
+    "path": "/supplyCenter/cargo/getComponentTemplate",
+    "method_name": "supplyCenter.cargo.getComponentTemplate",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询采购单信息（supplyCenter.order/query）",
+    "code": "jinritemai.supplyCenter.order.query",
+    "http_method": "POST",
+    "path": "/supplyCenter/order/query",
+    "method_name": "supplyCenter.order.query",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "精选货源获取类目品牌（supplyCenter.base/brand）",
+    "code": "jinritemai.supplyCenter.base.brand",
+    "http_method": "POST",
+    "path": "/supplyCenter/base/brand",
+    "method_name": "supplyCenter.base.brand",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "精选货源获取类目属性（supplyCenter.base/cateProperty）",
+    "code": "jinritemai.supplyCenter.base.cateProperty",
+    "http_method": "POST",
+    "path": "/supplyCenter/base/cateProperty",
+    "method_name": "supplyCenter.base.cateProperty",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "精选货源获取类目（supplyCenter.base/category）",
+    "code": "jinritemai.supplyCenter.base.category",
+    "http_method": "POST",
+    "path": "/supplyCenter/base/category",
+    "method_name": "supplyCenter.base.category",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "精选货源获取货品列表（supplyCenter.cargo/list）",
+    "code": "jinritemai.supplyCenter.cargo.list",
+    "http_method": "POST",
+    "path": "/supplyCenter/cargo/list",
+    "method_name": "supplyCenter.cargo.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "精选货源采购单推进确认收货状态（supplyCenter.order/confirm）",
+    "code": "jinritemai.supplyCenter.order.confirm",
+    "http_method": "POST",
+    "path": "/supplyCenter/order/confirm",
+    "method_name": "supplyCenter.order.confirm",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "素材中心--素材搜索接口（supplyCenter.material/search）",
+    "code": "jinritemai.supplyCenter.material.search",
+    "http_method": "POST",
+    "path": "/supplyCenter/material/search",
+    "method_name": "supplyCenter.material.search",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量获取视频信息（material.mGetPlayInfo）",
+    "code": "jinritemai.material.mGetPlayInfo",
+    "http_method": "POST",
+    "path": "/material/mGetPlayInfo",
+    "method_name": "material.mGetPlayInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "搜索文件夹（material.searchFolder）",
+    "code": "jinritemai.material.searchFolder",
+    "http_method": "POST",
+    "path": "/material/searchFolder",
+    "method_name": "material.searchFolder",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查看文件夹详情（material.getFolderInfo）",
+    "code": "jinritemai.material.getFolderInfo",
+    "http_method": "POST",
+    "path": "/material/getFolderInfo",
+    "method_name": "material.getFolderInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "根据素材id查素材详情（material.queryMaterialDetail）",
+    "code": "jinritemai.material.queryMaterialDetail",
+    "http_method": "POST",
+    "path": "/material/queryMaterialDetail",
+    "method_name": "material.queryMaterialDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商家容量详情（material.get_cap_info）",
+    "code": "jinritemai.material.get_cap_info",
+    "http_method": "POST",
+    "path": "/material/get_cap_info",
+    "method_name": "material.get_cap_info",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "分页查询营销玩法（marketing.pageQueryActivity）",
+    "code": "jinritemai.marketing.pageQueryActivity",
+    "http_method": "POST",
+    "path": "/marketing/pageQueryActivity",
+    "method_name": "marketing.pageQueryActivity",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "支持根据特定条件查询营销可用商品（marketing.queryAvailableProduct）",
+    "code": "jinritemai.marketing.queryAvailableProduct",
+    "http_method": "POST",
+    "path": "/marketing/queryAvailableProduct",
+    "method_name": "marketing.queryAvailableProduct",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺优惠券信息，与商家工作台优惠券管理模块功能一致（marketing.queryShopCouponList）",
+    "code": "jinritemai.marketing.queryShopCouponList",
+    "http_method": "POST",
+    "path": "/marketing/queryShopCouponList",
+    "method_name": "marketing.queryShopCouponList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取叶子类目可选的账号模板id（topup.accountTemplateList）",
+    "code": "jinritemai.topup.accountTemplateList",
+    "http_method": "POST",
+    "path": "/topup/accountTemplateList",
+    "method_name": "topup.accountTemplateList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "合单校验接口（order.mergeV2）",
+    "code": "jinritemai.order.mergeV2",
+    "http_method": "POST",
+    "path": "/order/mergeV2",
+    "method_name": "order.mergeV2",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商家服务单详情（order.serviceDetail）",
+    "code": "jinritemai.order.serviceDetail",
+    "http_method": "POST",
+    "path": "/order/serviceDetail",
+    "method_name": "order.serviceDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查看商家开票列表（order.invoiceList）",
+    "code": "jinritemai.order.invoiceList",
+    "http_method": "POST",
+    "path": "/order/invoiceList",
+    "method_name": "order.invoiceList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询统计销量结果（bigCustomer.queryCounting）",
+    "code": "jinritemai.bigCustomer.queryCounting",
+    "http_method": "POST",
+    "path": "/bigCustomer/queryCounting",
+    "method_name": "bigCustomer.queryCounting",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "根据收件人姓名、手机号查询订单（order.searchByReceiver）",
+    "code": "jinritemai.order.searchByReceiver",
+    "http_method": "POST",
+    "path": "/order/searchByReceiver",
+    "method_name": "order.searchByReceiver",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "订单列表查询（order.searchList）",
+    "code": "jinritemai.order.searchList",
+    "http_method": "POST",
+    "path": "/order/searchList",
+    "method_name": "order.searchList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "订单详情查询（order.orderDetail）",
+    "code": "jinritemai.order.orderDetail",
+    "http_method": "POST",
+    "path": "/order/orderDetail",
+    "method_name": "order.orderDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "资金流水明细文件下载(境内)（order.downloadShopAccountItemFile）",
+    "code": "jinritemai.order.downloadShopAccountItemFile",
+    "http_method": "POST",
+    "path": "/order/downloadShopAccountItemFile",
+    "method_name": "order.downloadShopAccountItemFile",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商家拉单（dutyFree.orderList）",
+    "code": "jinritemai.dutyFree.orderList",
+    "http_method": "POST",
+    "path": "/dutyFree/orderList",
+    "method_name": "dutyFree.orderList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量获取货品详情（supplyChain.batchGetCargoDetail）",
+    "code": "jinritemai.supplyChain.batchGetCargoDetail",
+    "http_method": "POST",
+    "path": "/supplyChain/batchGetCargoDetail",
+    "method_name": "supplyChain.batchGetCargoDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询品牌列表（supplyChain.queryBrandList）",
+    "code": "jinritemai.supplyChain.queryBrandList",
+    "http_method": "POST",
+    "path": "/supplyChain/queryBrandList",
+    "method_name": "supplyChain.queryBrandList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺单包裹信息（order.queryOrderPackageInfo）",
+    "code": "jinritemai.order.queryOrderPackageInfo",
+    "http_method": "POST",
+    "path": "/order/queryOrderPackageInfo",
+    "method_name": "order.queryOrderPackageInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询货品列表（supplyChain.queryCargoList）",
+    "code": "jinritemai.supplyChain.queryCargoList",
+    "http_method": "POST",
+    "path": "/supplyChain/queryCargoList",
+    "method_name": "supplyChain.queryCargoList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "类目属性规则查询（supplyChain.queryCatePropList）",
+    "code": "jinritemai.supplyChain.queryCatePropList",
+    "http_method": "POST",
+    "path": "/supplyChain/queryCatePropList",
+    "method_name": "supplyChain.queryCatePropList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取交易订单状态（crossBorder.getTradeOrderStatus）",
+    "code": "jinritemai.crossBorder.getTradeOrderStatus",
+    "http_method": "POST",
+    "path": "/crossBorder/getTradeOrderStatus",
+    "method_name": "crossBorder.getTradeOrderStatus",
+    "default_params": {},
+    "target_table": "ingested_data"
+  }
+]

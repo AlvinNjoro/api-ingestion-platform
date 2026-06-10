@@ -1,0 +1,3306 @@
+[
+  {
+    "platform": "qianchuan",
+    "name": "千川全域计划变更消息",
+    "code": "qianchuan.open_api_v1.0_qianchuan_uni_promotion_list",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/uni_promotion/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取Access Token",
+    "code": "qianchuan.open_api_oauth2_access_token",
+    "http_method": "POST",
+    "path": "/open_api/oauth2/access_token/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "刷新Token",
+    "code": "qianchuan.open_api_oauth2_refresh_token",
+    "http_method": "POST",
+    "path": "/open_api/oauth2/refresh_token/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取授权User信息",
+    "code": "qianchuan.open_api_2_user_info",
+    "http_method": "GET",
+    "path": "/open_api/2/user/info/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取已授权的账户（店铺/代理商/旧版巨量引擎工作台）",
+    "code": "qianchuan.open_api_oauth2_advertiser_get",
+    "http_method": "GET",
+    "path": "/open_api/oauth2/advertiser/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "店铺新客定向授权",
+    "code": "qianchuan.open_api_v1.0_qianchuan_tools_shop_auth",
+    "http_method": "POST",
+    "path": "/open_api/v1.0/qianchuan/tools/shop_auth/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取店铺账户关联的投放账户列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_shop_advertiser_list",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/shop/advertiser/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取千川账户下可投放抖音号",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_authorized_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/aweme/authorized/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取千川账户下抖音号授权列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_auth_list_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/aweme_auth_list/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取店铺账户信息",
+    "code": "qianchuan.open_api_v1.0_qianchuan_shop_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/shop/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取千川投放账户基础信息",
+    "code": "qianchuan.open_api_2_advertiser_public_info",
+    "http_method": "POST",
+    "path": "/open_api/2/advertiser/public_info/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取千川投放账户全量信息",
+    "code": "qianchuan.open_api_2_advertiser_info",
+    "http_method": "GET",
+    "path": "/open_api/2/advertiser/info/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取千川账户类型",
+    "code": "qianchuan.open_api_v1.0_qianchuan_advertiser_type_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/advertiser/type/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取纵横工作台下账户列表",
+    "code": "qianchuan.open_api_2_customer_center_advertiser_list",
+    "http_method": "GET",
+    "path": "/open_api/2/customer_center/advertiser/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取升级版巨量引擎工作台下账户列表",
+    "code": "qianchuan.open_api_2_ebp_advertiser_list",
+    "http_method": "GET",
+    "path": "/open_api/2/ebp/advertiser/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "资金共享-获取唯一操作id",
+    "code": "qianchuan.open_api_v3.0_ad_billing_unique_id_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/ad_billing/unique_id/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取账户钱包信息",
+    "code": "qianchuan.open_api_v1.0_qianchuan_finance_wallet_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/finance/wallet/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取账户余额",
+    "code": "qianchuan.open_api_v1.0_qianchuan_account_balance_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/account/balance/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取财务流水信息",
+    "code": "qianchuan.open_api_v1.0_qianchuan_finance_detail_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/finance/detail/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "查询财务流水明细",
+    "code": "qianchuan.open_api_2_advertiser_fund_transaction_get",
+    "http_method": "GET",
+    "path": "/open_api/2/advertiser/fund/transaction/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "【代理商】批量查询账户余额",
+    "code": "qianchuan.open_api_v3.0_account_fund_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/account/fund/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "查询汇款码列表信息",
+    "code": "qianchuan.open_api_v3.0_remittance_code_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/remittance_code/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "资金共享-查询ADV粒度操作记录",
+    "code": "qianchuan.open_api_v3.0_shared_wallet_wallet_adv_operation_log_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/shared_wallet/wallet_adv_operation_log/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "资金共享-查询钱包粒度操作记录",
+    "code": "qianchuan.open_api_v3.0_shared_wallet_wallet_operation_log_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/shared_wallet/wallet_operation_log/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取账户日预算",
+    "code": "qianchuan.open_api_v1.0_qianchuan_account_budget_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/account/budget/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "计划组列表获取",
+    "code": "qianchuan.open_api_v1.0_qianchuan_campaign_list_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/campaign_list/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取计划详情（含创意信息）",
+    "code": "qianchuan.open_api_v1.0_qianchuan_ad_detail_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/ad/detail/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取账户下计划列表（不含创意）",
+    "code": "qianchuan.open_api_v1.0_qianchuan_ad_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/ad/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取计划审核建议",
+    "code": "qianchuan.open_api_v1.0_qianchuan_ad_reject_reason",
+    "http_method": "POST",
+    "path": "/open_api/v1.0/qianchuan/ad/reject_reason/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取低效计划列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_lq_ad_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/lq_ad/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取非ROI目标建议出价",
+    "code": "qianchuan.open_api_v1.0_qianchuan_suggest_bid",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/suggest_bid/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取建议预算接口",
+    "code": "qianchuan.open_api_v1.0_qianchuan_suggest_budget",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/suggest/budget/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取预估效果接口",
+    "code": "qianchuan.open_api_v1.0_qianchuan_estimate_effect",
+    "http_method": "POST",
+    "path": "/open_api/v1.0/qianchuan/estimate/effect/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取计划成本保障状态",
+    "code": "qianchuan.open_api_v1.0_qianchuan_ad_compensate_status_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/ad/compensate_status/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取计划学习期状态",
+    "code": "qianchuan.open_api_v1.0_qianchuan_ad_learing_status_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/ad/learing_status/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取账户下素材列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_material_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/material/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取计划下素材列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_ad_material_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/ad/material/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取素材关联计划",
+    "code": "qianchuan.open_api_v1.0_qianchuan_material_ad_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/material/ad/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "商家获取可投商品列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_product_available_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/product/available/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "达人获取可投商品列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_product_available_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/aweme/product/available/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取词包推荐关键词",
+    "code": "qianchuan.open_api_v1.0_qianchuan_keyword_package_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/keyword_package/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取计划的搜索关键词",
+    "code": "qianchuan.open_api_v1.0_qianchuan_ad_keywords_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/ad/keywords/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取系统推荐的搜索关键词",
+    "code": "qianchuan.open_api_v1.0_qianchuan_ad_recommend_keywords_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/ad/recommend_keywords/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取否定词列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_ad_pivativewords_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/ad/pivativewords/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取全域投放抖音号列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_uni_aweme_authorized_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/uni_aweme/authorized/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取商品全域可授权店铺列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_uni_promotion_authorizable_shop_list",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/uni_promotion/authorizable_shop/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取全域&乘方投放计划详情",
+    "code": "qianchuan.open_api_v1.0_qianchuan_uni_promotion_ad_detail",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/uni_promotion/ad/detail/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取全域投放计划下素材",
+    "code": "qianchuan.open_api_v1.0_qianchuan_uni_promotion_ad_material_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/uni_promotion/ad/material/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取全域计划下商品列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_uni_promotion_ad_product_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/uni_promotion/ad/product/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "全域达人/机构获取可选商品列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_uni_promotion_product_aweme_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/uni_promotion/product/aweme/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "全域商家可选商品列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_uni_promotion_product_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/uni_promotion/product/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取全域可排除抖音视频/图文列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_uni_promotion_block_material_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/uni_promotion/block_material/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取全域建议预算",
+    "code": "qianchuan.open_api_v1.0_qianchuan_uni_aweme_suggest_budget",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/uni_aweme/suggest/budget/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取全域计划审核建议",
+    "code": "qianchuan.open_api_v1.0_qianchuan_uni_promotion_ad_suggestion",
+    "http_method": "POST",
+    "path": "/open_api/v1.0/qianchuan/uni_promotion/ad/suggestion/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取今日直播间列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_today_live_room_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/today_live/room/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取直播间详情",
+    "code": "qianchuan.open_api_v1.0_qianchuan_today_live_room_detail_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/today_live/room/detail/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取直播间流量表现",
+    "code": "qianchuan.open_api_v1.0_qianchuan_today_live_room_flow_performance_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/today_live/room/flow_performance/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取直播间商品列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_today_live_room_product_list_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/today_live/room/product_list/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取直播间用户洞察",
+    "code": "qianchuan.open_api_v1.0_qianchuan_today_live_room_user_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/today_live/room/user/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推全域订单列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_uni_promotion_order_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/aweme/uni_promotion/order/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推全域订单下素材列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_uni_promotion_ad_material_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/aweme/uni_promotion/ad/material/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推全域订单详情",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_uni_promotion_order_detail",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/aweme/uni_promotion/order/detail/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推全域投放建议",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_uni_promotion_suggest",
+    "http_method": "POST",
+    "path": "/open_api/v1.0/qianchuan/aweme/uni_promotion/suggest/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推全域投放效果预估",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_uni_promotion_estimate_effect",
+    "http_method": "POST",
+    "path": "/open_api/v1.0/qianchuan/aweme/uni_promotion/estimate/effect/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推全域手动出价计划建议ROI",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_uni_promotion_suggest_roi",
+    "http_method": "POST",
+    "path": "/open_api/v1.0/qianchuan/aweme/uni_promotion/suggest/roi/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "终止随心推标准/全域订单",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_order_terminate",
+    "http_method": "POST",
+    "path": "/open_api/v1.0/qianchuan/aweme/order/terminate/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推订单列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_order_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/aweme/order/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推订单详情",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_order_detail_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/aweme/order/detail/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推兴趣标签",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_interest_action_interest_keyword",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/aweme/interest_action/interest/keyword/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推可投视频列表",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_video_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/aweme/video/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推投放效果预估",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_estimate_profit",
+    "http_method": "POST",
+    "path": "/open_api/v1.0/qianchuan/aweme/estimate_profit/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推短视频建议出价",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_suggest_bid",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/aweme/suggest_bid/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取随心推ROI建议出价",
+    "code": "qianchuan.open_api_v1.0_qianchuan_aweme_suggest_roi_goal",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/aweme/suggest/roi/goal/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取千川素材库图片",
+    "code": "qianchuan.open_api_v1.0_qianchuan_image_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/image/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取千川素材库视频",
+    "code": "qianchuan.open_api_v1.0_qianchuan_video_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/video/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取抖音号下的视频",
+    "code": "qianchuan.open_api_v1.0_qianchuan_file_video_aweme_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/file/video/aweme/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取抖音主页视频对应素材库视频",
+    "code": "qianchuan.open_api_v1.0_qianchuan_video_by_aweme_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/video/by_aweme/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取千川素材库图文",
+    "code": "qianchuan.open_api_v1.0_qianchuan_carousel_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/carousel/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取抖音号下的图文",
+    "code": "qianchuan.open_api_v1.0_qianchuan_carousel_aweme_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/carousel/aweme/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取首发素材",
+    "code": "qianchuan.open_api_v1.0_qianchuan_file_video_original_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/file/video/original/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "qianchuan",
+    "name": "获取低效素材",
+    "code": "qianchuan.open_api_v1.0_qianchuan_file_video_efficiency_get",
+    "http_method": "GET",
+    "path": "/open_api/v1.0/qianchuan/file/video/efficiency/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取APP Access Token",
+    "code": "oceanengine.open_api_oauth2_app_access_token",
+    "http_method": "POST",
+    "path": "/open_api/oauth2/app_access_token/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询投放账户头像",
+    "code": "oceanengine.open_api_2_advertiser_avatar_get",
+    "http_method": "GET",
+    "path": "/open_api/2/advertiser/avatar/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取主体资质（新版）",
+    "code": "oceanengine.open_api_v3.0_advertiser_qualification_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/advertiser/qualification/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取投放资质（旧版）",
+    "code": "oceanengine.open_api_2_advertiser_qualification_select_v2",
+    "http_method": "POST",
+    "path": "/open_api/2/advertiser/qualification/select_v2/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取组织认证及授权主体列表",
+    "code": "oceanengine.open_api_v3.0_tools_ebp_subject_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/tools/ebp/subject/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取工作台组织关系（升级版）",
+    "code": "oceanengine.open_api_2_ebp_level_get",
+    "http_method": "GET",
+    "path": "/open_api/2/ebp/level/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询获取工作台组织账户任务状态",
+    "code": "oceanengine.open_api_2_ebp_advertiser_task_list",
+    "http_method": "GET",
+    "path": "/open_api/2/ebp/advertiser/task/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "下载获取升级版巨量引擎工作台账户任务结果",
+    "code": "oceanengine.open_api_2_ebp_advertiser_task_download",
+    "http_method": "POST",
+    "path": "/open_api/2/ebp/advertiser/task/download/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取旧版巨量引擎工作台下账户列表",
+    "code": "oceanengine.open_api_2_majordomo_advertiser_select",
+    "http_method": "GET",
+    "path": "/open_api/2/majordomo/advertiser/select/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取旧版巨量引擎工作台下主体信息",
+    "code": "oceanengine.open_api_v3.0_business_platform_company_info_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/business_platform/company_info/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取主体下的账户列表",
+    "code": "oceanengine.open_api_v3.0_business_platform_company_account_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/business_platform/company_account/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "投放账户查询汇款码列表",
+    "code": "oceanengine.open_api_v3.0_fix_remittance_code_list_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/fix_remittance_code/list/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "钱包查询汇款码列表",
+    "code": "oceanengine.open_api_v3.0_wallet_remittance_code_list_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/wallet/remittance_code/list/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询账号余额",
+    "code": "oceanengine.open_api_2_advertiser_fund_get",
+    "http_method": "GET",
+    "path": "/open_api/2/advertiser/fund/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询账户日流水",
+    "code": "oceanengine.open_api_2_advertiser_fund_daily_stat",
+    "http_method": "POST",
+    "path": "/open_api/2/advertiser/fund/daily_stat/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取返货共享钱包余额",
+    "code": "oceanengine.open_api_2_fund_shared_wallet_balance_get",
+    "http_method": "GET",
+    "path": "/open_api/2/fund/shared_wallet_balance/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询项目关联结算单信息",
+    "code": "oceanengine.open_api_2_query_statement",
+    "http_method": "POST",
+    "path": "/open_api/2/query/statement/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询项目信息",
+    "code": "oceanengine.open_api_2_query_project",
+    "http_method": "POST",
+    "path": "/open_api/2/query/project/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "资金共享-批量查询钱包余额",
+    "code": "oceanengine.open_api_v3.0_shared_wallet_wallet_balance_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/shared_wallet/wallet_balance/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "资金共享-查询共享钱包流水明细",
+    "code": "oceanengine.open_api_v3.0_shared_wallet_transaction_detail_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/shared_wallet/transaction_detail/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "资金共享-查询共享钱包日流水",
+    "code": "oceanengine.open_api_v3.0_shared_wallet_daily_stat_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/shared_wallet/daily_stat/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "资金共享-共享钱包信息查询",
+    "code": "oceanengine.open_api_v3.0_shared_wallet_main_wallet_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/shared_wallet/main_wallet/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "资金共享-批量查询钱包信息",
+    "code": "oceanengine.open_api_v3.0_shared_wallet_wallet_info_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/shared_wallet/wallet_info/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "共享钱包-查询账户对应公司下的钱包关系",
+    "code": "oceanengine.open_api_v3.0_shared_wallet_account_relation_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/shared_wallet/account_relation/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "资金共享-查询子钱包预算",
+    "code": "oceanengine.open_api_v3.0_shared_wallet_budget_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/shared_wallet/budget/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "资金共享-查询子钱包盯盘规则",
+    "code": "oceanengine.open_api_v3.0_shared_wallet_watch_rule_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/shared_wallet/watch_rule/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "排期—查询业务实体ID",
+    "code": "oceanengine.open_api_2_query_booking_business_entity_id_get",
+    "http_method": "GET",
+    "path": "/open_api/2/query/booking/business_entity_id/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取账户日预算",
+    "code": "oceanengine.open_api_2_advertiser_budget_get",
+    "http_method": "GET",
+    "path": "/open_api/2/advertiser/budget/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取项目列表",
+    "code": "oceanengine.open_api_v3.0_project_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/project/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "批量获取项目成本保障状态",
+    "code": "oceanengine.open_api_v3.0_project_cost_protect_status_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/project/cost_protect_status/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取预算组列表",
+    "code": "oceanengine.open_api_v3.0_budget_group_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/budget_group/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取单元列表",
+    "code": "oceanengine.open_api_v3.0_promotion_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/promotion/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "批量获取广告审核建议",
+    "code": "oceanengine.open_api_v3.0_promotion_reject_reason_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/promotion/reject_reason/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "批量获取营销成本保障状态",
+    "code": "oceanengine.open_api_v3.0_promotion_cost_protect_status_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/promotion/cost_protect_status/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取关联云图的投放账户信息",
+    "code": "oceanengine.open_api_v3.0_cdp_brand_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/cdp/brand/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取蓝海流量包",
+    "code": "oceanengine.open_api_v3.0_tools_blue_flow_package_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/tools/blue_flow_package/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取项目下可用蓝海关键词",
+    "code": "oceanengine.open_api_v3.0_tools_blue_flow_keyword_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/tools/blue_flow_keyword/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取推荐关键词",
+    "code": "oceanengine.open_api_v3.0_sugg_words",
+    "http_method": "POST",
+    "path": "/open_api/v3.0/sugg_words/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "批量获取项目否定词",
+    "code": "oceanengine.open_api_v3.0_tools_privative_word_batch_get",
+    "http_method": "POST",
+    "path": "/open_api/v3.0/tools/privative_word/batch_get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询优词提量系数信息",
+    "code": "oceanengine.open_api_v3.0_tools_keywords_bid_ratio_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/tools/keywords_bid_ratio/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取关键词列表",
+    "code": "oceanengine.open_api_v3.0_keyword_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/keyword/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询订单列表",
+    "code": "oceanengine.open_api_v3.0_douplus_order_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/douplus/order/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "终止订单接口",
+    "code": "oceanengine.open_api_v3.0_douplus_order_close",
+    "http_method": "POST",
+    "path": "/open_api/v3.0/douplus/order/close/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取可投放视频列表",
+    "code": "oceanengine.open_api_v3.0_douplus_optional_items_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/douplus/optional_items/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取视频可投放转化目标",
+    "code": "oceanengine.open_api_v3.0_douplus_optional_targets_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/douplus/optional_targets/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询游戏玩法列表",
+    "code": "oceanengine.open_api_v3.0_gameplay_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/gameplay/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取游戏预约列表",
+    "code": "oceanengine.open_api_v3.0_tools_ebp_app_game_book_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/tools/ebp/app_game_book/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询游戏预约信息",
+    "code": "oceanengine.open_api_2_tools_app_management_booking_get",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/app_management/booking/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询包解析状态",
+    "code": "oceanengine.open_api_2_tools_download_package_get",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/download/package/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取账户可投品牌列表",
+    "code": "oceanengine.open_api_v3.0_dpa_brand_adv_auth_fuzzy_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/dpa/brand/adv_auth/fuzzy/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取账户可用品牌行业信息",
+    "code": "oceanengine.open_api_v3.0_dpa_brand_adv_auth_industry_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/dpa/brand/adv_auth/industry/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取通用版商品列表",
+    "code": "oceanengine.open_api_v3.0_dpa_ebp_product_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/dpa/ebp/product/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取通用版商品详情",
+    "code": "oceanengine.open_api_v3.0_dpa_ebp_product_detail_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/dpa/ebp/product/detail/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取升级版商品详情",
+    "code": "oceanengine.open_api_v3.0_dpa_ebp_clue_product_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/dpa/ebp/clue_product/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取商品库DPA分类",
+    "code": "oceanengine.open_api_v3.0_dpa_ebp_category_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/dpa/ebp/category/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取商品库列表",
+    "code": "oceanengine.open_api_v3.0_dpa_ebp_library_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/dpa/ebp/library/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取升级版商品列表",
+    "code": "oceanengine.open_api_v3.0_dpa_ebp_clue_product_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/dpa/ebp/clue_product/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取商品库DPA词包",
+    "code": "oceanengine.open_api_v3.0_dpa_ebp_dict_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/dpa/ebp/dict/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取商品库信息",
+    "code": "oceanengine.open_api_2_dpa_product_availables",
+    "http_method": "POST",
+    "path": "/open_api/2/dpa/product/availables/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取商品库元信息",
+    "code": "oceanengine.open_api_2_dpa_meta_get",
+    "http_method": "GET",
+    "path": "/open_api/2/dpa/meta/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取商品列表",
+    "code": "oceanengine.open_api_2_dpa_detail_get",
+    "http_method": "GET",
+    "path": "/open_api/2/dpa/detail/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取商品详情",
+    "code": "oceanengine.open_api_2_dpa_product_detail_get",
+    "http_method": "GET",
+    "path": "/open_api/2/dpa/product/detail/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取升级版商品列表",
+    "code": "oceanengine.open_api_2_dpa_clue_product_list",
+    "http_method": "GET",
+    "path": "/open_api/2/dpa/clue_product/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取升级版商品详情",
+    "code": "oceanengine.open_api_2_dpa_clue_product_detail",
+    "http_method": "GET",
+    "path": "/open_api/2/dpa/clue_product/detail/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取DPA分类",
+    "code": "oceanengine.open_api_2_dpa_category_get",
+    "http_method": "GET",
+    "path": "/open_api/2/dpa/category/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取DPA词包",
+    "code": "oceanengine.open_api_2_dpa_dict_get",
+    "http_method": "GET",
+    "path": "/open_api/2/dpa/dict/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取DPA私有模板",
+    "code": "oceanengine.open_api_2_dpa_template_get",
+    "http_method": "GET",
+    "path": "/open_api/2/dpa/template/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取 DPA 商品库视频模板",
+    "code": "oceanengine.open_api_2_dpa_video_get",
+    "http_method": "GET",
+    "path": "/open_api/2/dpa/video/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询短剧可投状态",
+    "code": "oceanengine.open_api_v3.0_dpa_album_status_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/dpa/album_status/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "升级版工作台查询素材共享范围",
+    "code": "oceanengine.open_api_v3.0_tools_ebp_material_auth_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/tools/ebp/material/auth/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "升级版工作台获取视频素材评估标签",
+    "code": "oceanengine.open_api_v3.0_tools_ebp_video_attributes_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/tools/ebp/video_attributes/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取试玩/直玩素材列表",
+    "code": "oceanengine.open_api_v3.0_file_playable_list",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/file/playable/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取图片素材",
+    "code": "oceanengine.open_api_2_file_image_get",
+    "http_method": "GET",
+    "path": "/open_api/2/file/image/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取账户可用的组织视频列表",
+    "code": "oceanengine.open_api_v3.0_file_ebp_video_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/file/ebp_video/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取视频素材",
+    "code": "oceanengine.open_api_2_file_video_get",
+    "http_method": "GET",
+    "path": "/open_api/2/file/video/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取视频智能封面",
+    "code": "oceanengine.open_api_2_tools_video_cover_suggest",
+    "http_method": "POST",
+    "path": "/open_api/2/tools/video_cover/suggest/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取同主体下客户图片素材",
+    "code": "oceanengine.open_api_2_file_image_ad_get",
+    "http_method": "GET",
+    "path": "/open_api/2/file/image/ad/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取同主体下客户视频素材",
+    "code": "oceanengine.open_api_2_file_video_ad_get",
+    "http_method": "GET",
+    "path": "/open_api/2/file/video/ad/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取抖音主页视频",
+    "code": "oceanengine.open_api_2_file_video_aweme_get",
+    "http_method": "GET",
+    "path": "/open_api/2/file/video/aweme/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取低效素材",
+    "code": "oceanengine.open_api_2_file_video_efficiency_get",
+    "http_method": "GET",
+    "path": "/open_api/2/file/video/efficiency/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取素材标签列表",
+    "code": "oceanengine.open_api_2_file_material_list",
+    "http_method": "GET",
+    "path": "/open_api/2/file/material/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询素材标签信息",
+    "code": "oceanengine.open_api_2_file_material_detail",
+    "http_method": "GET",
+    "path": "/open_api/2/file/material/detail/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取视频素材评估标签（新版）",
+    "code": "oceanengine.open_api_2_file_material_attributes_list",
+    "http_method": "GET",
+    "path": "/open_api/2/file/material_attributes/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取清理任务列表",
+    "code": "oceanengine.open_api_2_file_video_material_clear_task_get",
+    "http_method": "GET",
+    "path": "/open_api/2/file/video/material/clear_task/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "下载清理任务结果",
+    "code": "oceanengine.open_api_2_file_video_material_clear_task_result_get",
+    "http_method": "GET",
+    "path": "/open_api/2/file/video/material/clear_task_result/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取图文素材",
+    "code": "oceanengine.open_api_2_carousel_list",
+    "http_method": "GET",
+    "path": "/open_api/2/carousel/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取同主体下客户图文素材",
+    "code": "oceanengine.open_api_2_carousel_ad_get",
+    "http_method": "GET",
+    "path": "/open_api/2/carousel/ad/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "Adv获取任务列表",
+    "code": "oceanengine.open_api_2_diagnosis_task_adv_list",
+    "http_method": "GET",
+    "path": "/open_api/2/diagnosis_task/adv/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "Adv轮询任务结果",
+    "code": "oceanengine.open_api_2_diagnosis_task_adv_get",
+    "http_method": "GET",
+    "path": "/open_api/2/diagnosis_task/adv/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取橙子建站站点详细信息",
+    "code": "oceanengine.open_api_2_tools_site_read",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/site/read/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取橙子建站站点列表",
+    "code": "oceanengine.open_api_2_tools_site_get",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/site/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "建站工具——查询已有智能电话",
+    "code": "oceanengine.open_api_2_tools_clue_smart_phone_get",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/clue/smart_phone/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "建站工具——查询已有表单列表",
+    "code": "oceanengine.open_api_2_tools_clue_form_get",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/clue/form/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "建站工具——查询表单详情",
+    "code": "oceanengine.open_api_2_tools_clue_form_detail",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/clue/form/detail/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取落地页预约表单信息",
+    "code": "oceanengine.open_api_2_tools_site_forms_list",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/site/forms/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "通过优化目标获取橙子落地页站点信息",
+    "code": "oceanengine.open_api_v3.0_tools_orange_site_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/tools/orange_site/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取第三方落地页站点列表",
+    "code": "oceanengine.open_api_2_tools_third_site_get",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/third_site/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取落地页组",
+    "code": "oceanengine.open_api_2_tools_landing_group_get",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/landing_group/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取站点模版列表",
+    "code": "oceanengine.open_api_2_tools_site_template_get",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/site_template/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取模板/站点URL",
+    "code": "oceanengine.open_api_2_tools_site_template_pic_url_get",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/site_template/pic_url/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取线索列表",
+    "code": "oceanengine.open_api_2_tools_clue_get",
+    "http_method": "GET",
+    "path": "/open_api/2/tools/clue/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取表单详情",
+    "code": "oceanengine.open_api_2_clue_form_detail",
+    "http_method": "GET",
+    "path": "/open_api/2/clue/form/detail/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取表单列表",
+    "code": "oceanengine.open_api_2_clue_form_list",
+    "http_method": "GET",
+    "path": "/open_api/2/clue/form/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取卡券详情",
+    "code": "oceanengine.open_api_2_clue_coupon_detail",
+    "http_method": "GET",
+    "path": "/open_api/2/clue/coupon/detail/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取卡券列表",
+    "code": "oceanengine.open_api_2_clue_coupon_get",
+    "http_method": "GET",
+    "path": "/open_api/2/clue/coupon/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "查询券码记录",
+    "code": "oceanengine.open_api_2_clue_coupon_code_get",
+    "http_method": "GET",
+    "path": "/open_api/2/clue/coupon/code/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取家装联盟卡券列表",
+    "code": "oceanengine.open_api_v3.0_decoration_coupon_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/decoration/coupon/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取智能电话列表",
+    "code": "oceanengine.open_api_2_clue_smartphone_get",
+    "http_method": "GET",
+    "path": "/open_api/2/clue/smartphone/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取微信库微信号列表",
+    "code": "oceanengine.open_api_2_clue_wechat_pool_list",
+    "http_method": "GET",
+    "path": "/open_api/2/clue/wechat_pool/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取微信号码包详情",
+    "code": "oceanengine.open_api_2_clue_wechat_instance_detail",
+    "http_method": "GET",
+    "path": "/open_api/2/clue/wechat_instance/detail/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取微信号码包列表",
+    "code": "oceanengine.open_api_2_clue_wechat_instance_list",
+    "http_method": "GET",
+    "path": "/open_api/2/clue/wechat_instance/list/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取事件资产下的监测链接组",
+    "code": "oceanengine.open_api_2_event_manager_track_url_get",
+    "http_method": "GET",
+    "path": "/open_api/2/event_manager/track_url/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "事件管理资产查看共享范围",
+    "code": "oceanengine.open_api_v3.0_event_manager_share_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/event_manager/share/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取可用优化目标（巨量营销升级版）",
+    "code": "oceanengine.open_api_v3.0_event_manager_optimized_goal_get_v2",
+    "http_method": "POST",
+    "path": "/open_api/v3.0/event_manager/optimized_goal/get_v2/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "oceanengine",
+    "name": "获取可用深度优化方式（营销投放升级版）",
+    "code": "oceanengine.open_api_v3.0_event_manager_deep_bid_type_get",
+    "http_method": "GET",
+    "path": "/open_api/v3.0/event_manager/deep_bid_type/get/",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "1、售后列表接口，可以支持多种筛选规则，详情见请求参数。（afterSale.List）",
+    "code": "jinritemai.afterSale.List",
+    "http_method": "POST",
+    "path": "/afterSale/List",
+    "method_name": "afterSale.List",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "一期暂无平台推荐策略能力，需三方自行制定。（open.getOrderRecoveryRecommendation）",
+    "code": "jinritemai.open.getOrderRecoveryRecommendation",
+    "http_method": "POST",
+    "path": "/open/getOrderRecoveryRecommendation",
+    "method_name": "open.getOrderRecoveryRecommendation",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "使用场景：（afterSale.rejectReasonCodeList）",
+    "code": "jinritemai.afterSale.rejectReasonCodeList",
+    "http_method": "POST",
+    "path": "/afterSale/rejectReasonCodeList",
+    "method_name": "afterSale.rejectReasonCodeList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "提供给商家获取售后单详情信息（afterSale.Detail）",
+    "code": "jinritemai.afterSale.Detail",
+    "http_method": "POST",
+    "path": "/afterSale/Detail",
+    "method_name": "afterSale.Detail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "核心入口，用于对单一退货的订单进行全面评估（second.volcengineRetainOrder）",
+    "code": "jinritemai.second.volcengineRetainOrder",
+    "http_method": "POST",
+    "path": "/second/volcengineRetainOrder",
+    "method_name": "second.volcengineRetainOrder",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "使用场景：批量查询商家抖店商品信息（product.listV2）",
+    "code": "jinritemai.product.listV2",
+    "http_method": "POST",
+    "path": "/product/listV2",
+    "method_name": "product.listV2",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "兼容老品牌id转为新品牌id（brand.convert）",
+    "code": "jinritemai.brand.convert",
+    "http_method": "POST",
+    "path": "/brand/convert",
+    "method_name": "brand.convert",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "分页查询模板列表（product.getComponentTemplate）",
+    "code": "jinritemai.product.getComponentTemplate",
+    "http_method": "POST",
+    "path": "/product/getComponentTemplate",
+    "method_name": "product.getComponentTemplate",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品信息质量分查询API（product.qualityDetail）",
+    "code": "jinritemai.product.qualityDetail",
+    "http_method": "POST",
+    "path": "/product/qualityDetail",
+    "method_name": "product.qualityDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品属性推荐（product.recommendProperties）",
+    "code": "jinritemai.product.recommendProperties",
+    "http_method": "POST",
+    "path": "/product/recommendProperties",
+    "method_name": "product.recommendProperties",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品标题热搜词推荐过滤（trade.TopSearchQueryFilter）",
+    "code": "jinritemai.trade.TopSearchQueryFilter",
+    "http_method": "POST",
+    "path": "/trade/TopSearchQueryFilter",
+    "method_name": "trade.TopSearchQueryFilter",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品标题热搜词推荐（trade.TopSearchQueryPredict）",
+    "code": "jinritemai.trade.TopSearchQueryPredict",
+    "http_method": "POST",
+    "path": "/trade/TopSearchQueryPredict",
+    "method_name": "trade.TopSearchQueryPredict",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品每日诊断任务查询API（product.qualityTask）",
+    "code": "jinritemai.product.qualityTask",
+    "http_method": "POST",
+    "path": "/product/qualityTask",
+    "method_name": "product.qualityTask",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品类目预测（product.GetRecommendCategory）",
+    "code": "jinritemai.product.GetRecommendCategory",
+    "http_method": "POST",
+    "path": "/product/GetRecommendCategory",
+    "method_name": "product.GetRecommendCategory",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品维度查询利益点和库存建议（promise.QueryBenefitTractionByProductId）",
+    "code": "jinritemai.promise.QueryBenefitTractionByProductId",
+    "http_method": "POST",
+    "path": "/promise/QueryBenefitTractionByProductId",
+    "method_name": "promise.QueryBenefitTractionByProductId",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "店铺开启尺码表自动优化（product.openAutoSizeTemplateOptimize）",
+    "code": "jinritemai.product.openAutoSizeTemplateOptimize",
+    "http_method": "POST",
+    "path": "/product/openAutoSizeTemplateOptimize",
+    "method_name": "product.openAutoSizeTemplateOptimize",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "店铺自播达人（buyin.queryShopSelfAuthors）",
+    "code": "jinritemai.buyin.queryShopSelfAuthors",
+    "http_method": "POST",
+    "path": "/buyin/queryShopSelfAuthors",
+    "method_name": "buyin.queryShopSelfAuthors",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "扫描获取商机中心全量线索信息（product.isv/scanClue）",
+    "code": "jinritemai.product.isv.scanClue",
+    "http_method": "POST",
+    "path": "/product/isv/scanClue",
+    "method_name": "product.isv.scanClue",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量查询搭配详情（product.batchGetCombination）",
+    "code": "jinritemai.product.batchGetCombination",
+    "http_method": "POST",
+    "path": "/product/batchGetCombination",
+    "method_name": "product.batchGetCombination",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量获取可分发在架线索列表（productClue.distributableCluelist）",
+    "code": "jinritemai.productClue.distributableCluelist",
+    "http_method": "POST",
+    "path": "/productClue/distributableCluelist",
+    "method_name": "productClue.distributableCluelist",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "提供给isv，根据店铺获取线索（product.isv/getClueList）",
+    "code": "jinritemai.product.isv.getClueList",
+    "http_method": "POST",
+    "path": "/product/isv/getClueList",
+    "method_name": "product.isv.getClueList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "是否曝光商品（open.isExposureProducts）",
+    "code": "jinritemai.open.isExposureProducts",
+    "http_method": "POST",
+    "path": "/open/isExposureProducts",
+    "method_name": "open.isExposureProducts",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询SPU（根据关键属性/SPU ID）（spu.getSpu）",
+    "code": "jinritemai.spu.getSpu",
+    "http_method": "POST",
+    "path": "/spu/getSpu",
+    "method_name": "spu.getSpu",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询商品详情（product.detail）",
+    "code": "jinritemai.product.detail",
+    "http_method": "POST",
+    "path": "/product/detail",
+    "method_name": "product.detail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询商家是否已开启AI生图托管（product.getShopHostingInfo）",
+    "code": "jinritemai.product.getShopHostingInfo",
+    "http_method": "POST",
+    "path": "/product/getShopHostingInfo",
+    "method_name": "product.getShopHostingInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询属性项的属性值（product.getCategoryPropertyValue）",
+    "code": "jinritemai.product.getCategoryPropertyValue",
+    "http_method": "POST",
+    "path": "/product/getCategoryPropertyValue",
+    "method_name": "product.getCategoryPropertyValue",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺商品质量情况，对标后台商品成长中心（product.qualityList）",
+    "code": "jinritemai.product.qualityList",
+    "http_method": "POST",
+    "path": "/product/qualityList",
+    "method_name": "product.qualityList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺尺码表自动优化配置（是否允许出自动优化弹窗（product.queryAutoSizeTemplateOptimizeConfig）",
+    "code": "jinritemai.product.queryAutoSizeTemplateOptimizeConfig",
+    "http_method": "POST",
+    "path": "/product/queryAutoSizeTemplateOptimizeConfig",
+    "method_name": "product.queryAutoSizeTemplateOptimizeConfig",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺属性自动优化配置（是否开启（product.queryPropAutoOptimizeConfig）",
+    "code": "jinritemai.product.queryPropAutoOptimizeConfig",
+    "http_method": "POST",
+    "path": "/product/queryPropAutoOptimizeConfig",
+    "method_name": "product.queryPropAutoOptimizeConfig",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺维度利益点和库存推荐（promise.QueryBenefitTraction）",
+    "code": "jinritemai.promise.QueryBenefitTraction",
+    "http_method": "POST",
+    "path": "/promise/QueryBenefitTraction",
+    "method_name": "promise.QueryBenefitTraction",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询异步执行的根任务列表（superm.product/queryProductSyncTask）",
+    "code": "jinritemai.superm.product.queryProductSyncTask",
+    "http_method": "POST",
+    "path": "/superm/product/queryProductSyncTask",
+    "method_name": "superm.product.queryProductSyncTask",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "根据ISBN查询书名（spu.queryBookNameByISBN）",
+    "code": "jinritemai.spu.queryBookNameByISBN",
+    "http_method": "POST",
+    "path": "/spu/queryBookNameByISBN",
+    "method_name": "spu.queryBookNameByISBN",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "根据商品信息推荐商品标题相关信息（product.getRecommendName）",
+    "code": "jinritemai.product.getRecommendName",
+    "http_method": "POST",
+    "path": "/product/getRecommendName",
+    "method_name": "product.getRecommendName",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "根据类目id获取可选品牌（brand.list）",
+    "code": "jinritemai.brand.list",
+    "http_method": "POST",
+    "path": "/brand/list",
+    "method_name": "brand.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "检索SPU（spu.QuerySpu）",
+    "code": "jinritemai.spu.QuerySpu",
+    "http_method": "POST",
+    "path": "/spu/QuerySpu",
+    "method_name": "spu.QuerySpu",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商品sku列表（sku.list）",
+    "code": "jinritemai.sku.list",
+    "http_method": "POST",
+    "path": "/sku/list",
+    "method_name": "sku.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商品sku详情（sku.detail）",
+    "code": "jinritemai.sku.detail",
+    "http_method": "POST",
+    "path": "/sku/detail",
+    "method_name": "sku.detail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商品天级指标数据（compass.CommonProductSaleDataByDay）",
+    "code": "jinritemai.compass.CommonProductSaleDataByDay",
+    "http_method": "POST",
+    "path": "/compass/CommonProductSaleDataByDay",
+    "method_name": "compass.CommonProductSaleDataByDay",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商品生命周期标签（product.batchSearchDiaProductInfo）",
+    "code": "jinritemai.product.batchSearchDiaProductInfo",
+    "http_method": "POST",
+    "path": "/product/batchSearchDiaProductInfo",
+    "method_name": "product.batchSearchDiaProductInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商品相关店铺维度的规则（product.getProductShopRule）",
+    "code": "jinritemai.product.getProductShopRule",
+    "http_method": "POST",
+    "path": "/product/getProductShopRule",
+    "method_name": "product.getProductShopRule",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商家可选类目（product.getCategories）",
+    "code": "jinritemai.product.getCategories",
+    "http_method": "POST",
+    "path": "/product/getCategories",
+    "method_name": "product.getCategories",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取店铺发品限额，当前包括单店铺、单日发品限额（product.getPublishProductLimit）",
+    "code": "jinritemai.product.getPublishProductLimit",
+    "http_method": "POST",
+    "path": "/product/getPublishProductLimit",
+    "method_name": "product.getPublishProductLimit",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取级联属性，当前属性有下级属性值，选中当前属性值，通过此接口请求下级级联属性值（product.getCascadeValue）",
+    "code": "jinritemai.product.getCascadeValue",
+    "http_method": "POST",
+    "path": "/product/getCascadeValue",
+    "method_name": "product.getCascadeValue",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "通过前缀匹配召回品牌信息（brand.getSug）",
+    "code": "jinritemai.brand.getSug",
+    "http_method": "POST",
+    "path": "/brand/getSug",
+    "method_name": "brand.getSug",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商家ERP获取店铺下的药剂师（medicine.getShopDruggist）",
+    "code": "jinritemai.medicine.getShopDruggist",
+    "http_method": "POST",
+    "path": "/medicine/getShopDruggist",
+    "method_name": "medicine.getShopDruggist",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取成员有权限的门店（medicine.getShopMemberAuthStoreIds）",
+    "code": "jinritemai.medicine.getShopMemberAuthStoreIds",
+    "http_method": "POST",
+    "path": "/medicine/getShopMemberAuthStoreIds",
+    "method_name": "medicine.getShopMemberAuthStoreIds",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "服务商确认（resale.order/supplierConfirm）",
+    "code": "jinritemai.resale.order.supplierConfirm",
+    "http_method": "POST",
+    "path": "/resale/order/supplierConfirm",
+    "method_name": "resale.order.supplierConfirm",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获得订单详情（recycle.buyerGetOrderDetail）",
+    "code": "jinritemai.recycle.buyerGetOrderDetail",
+    "http_method": "POST",
+    "path": "/recycle/buyerGetOrderDetail",
+    "method_name": "recycle.buyerGetOrderDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "库存批量同步接口（sku.syncStockBatch）",
+    "code": "jinritemai.sku.syncStockBatch",
+    "http_method": "POST",
+    "path": "/sku/syncStockBatch",
+    "method_name": "sku.syncStockBatch",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量查询区域仓（warehouse.list）",
+    "code": "jinritemai.warehouse.list",
+    "http_method": "POST",
+    "path": "/warehouse/list",
+    "method_name": "warehouse.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询区域仓（warehouse.info）",
+    "code": "jinritemai.warehouse.info",
+    "http_method": "POST",
+    "path": "/warehouse/info",
+    "method_name": "warehouse.info",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询商品规格库存（sku.stockNum）",
+    "code": "jinritemai.sku.stockNum",
+    "http_method": "POST",
+    "path": "/sku/stockNum",
+    "method_name": "sku.stockNum",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "二级承接页初始化（supplyChain.CouponZoneFeeds）",
+    "code": "jinritemai.supplyChain.CouponZoneFeeds",
+    "http_method": "POST",
+    "path": "/supplyChain/CouponZoneFeeds",
+    "method_name": "supplyChain.CouponZoneFeeds",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "单个获取门店信息（shop.getStoreDetail）",
+    "code": "jinritemai.shop.getStoreDetail",
+    "http_method": "POST",
+    "path": "/shop/getStoreDetail",
+    "method_name": "shop.getStoreDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量查询商品锁（product.batchGetProductLocks）",
+    "code": "jinritemai.product.batchGetProductLocks",
+    "http_method": "POST",
+    "path": "/product/batchGetProductLocks",
+    "method_name": "product.batchGetProductLocks",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量查询限购模板（trade.batchGetTradeLimitTemplateList）",
+    "code": "jinritemai.trade.batchGetTradeLimitTemplateList",
+    "http_method": "POST",
+    "path": "/trade/batchGetTradeLimitTemplateList",
+    "method_name": "trade.batchGetTradeLimitTemplateList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量获取活动信息（max.activities）",
+    "code": "jinritemai.max.activities",
+    "http_method": "POST",
+    "path": "/max/activities",
+    "method_name": "max.activities",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "暂停营业（shop.storeSuspend）",
+    "code": "jinritemai.shop.storeSuspend",
+    "http_method": "POST",
+    "path": "/shop/storeSuspend",
+    "method_name": "shop.storeSuspend",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询商家评分（shop.reputation）",
+    "code": "jinritemai.shop.reputation",
+    "http_method": "POST",
+    "path": "/shop/reputation",
+    "method_name": "shop.reputation",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺体验分（shop.getExperienceScore）",
+    "code": "jinritemai.shop.getExperienceScore",
+    "http_method": "POST",
+    "path": "/shop/getExperienceScore",
+    "method_name": "shop.getExperienceScore",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取体验分商品综合评分商品列表（expScore.getDsrDetailProdList）",
+    "code": "jinritemai.expScore.getDsrDetailProdList",
+    "http_method": "POST",
+    "path": "/expScore/getDsrDetailProdList",
+    "method_name": "expScore.getDsrDetailProdList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商家推广链接接口（member.getShopShortLink）",
+    "code": "jinritemai.member.getShopShortLink",
+    "http_method": "POST",
+    "path": "/member/getShopShortLink",
+    "method_name": "member.getShopShortLink",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "门店恢复营业（shop.unsuspendStore）",
+    "code": "jinritemai.shop.unsuspendStore",
+    "http_method": "POST",
+    "path": "/shop/unsuspendStore",
+    "method_name": "shop.unsuspendStore",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "店铺装修-页面管理（shop.openShopPageManagementList）",
+    "code": "jinritemai.shop.openShopPageManagementList",
+    "http_method": "POST",
+    "path": "/shop/openShopPageManagementList",
+    "method_name": "shop.openShopPageManagementList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "店铺装修类目操作接口（shop.marketCategoryOperate）",
+    "code": "jinritemai.shop.marketCategoryOperate",
+    "http_method": "POST",
+    "path": "/shop/marketCategoryOperate",
+    "method_name": "shop.marketCategoryOperate",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺的类目信息（shop.marketCategoryQuery）",
+    "code": "jinritemai.shop.marketCategoryQuery",
+    "http_method": "POST",
+    "path": "/shop/marketCategoryQuery",
+    "method_name": "shop.marketCategoryQuery",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "1、支持ISV查询当前商家可用物流公司列表;（order.queryLogisticsCompanyList）",
+    "code": "jinritemai.order.queryLogisticsCompanyList",
+    "http_method": "POST",
+    "path": "/order/queryLogisticsCompanyList",
+    "method_name": "order.queryLogisticsCompanyList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "四级地址查询接口（logistics.getDistrict）",
+    "code": "jinritemai.logistics.getDistrict",
+    "http_method": "POST",
+    "path": "/logistics/getDistrict",
+    "method_name": "logistics.getDistrict",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "回收服务商查询字节回收类目（logistics.QueryRecycleCateByLevelForPaging）",
+    "code": "jinritemai.logistics.QueryRecycleCateByLevelForPaging",
+    "http_method": "POST",
+    "path": "/logistics/QueryRecycleCateByLevelForPaging",
+    "method_name": "logistics.QueryRecycleCateByLevelForPaging",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询商家自定义区域数据（logistics.customTemplateList）",
+    "code": "jinritemai.logistics.customTemplateList",
+    "http_method": "POST",
+    "path": "/logistics/customTemplateList",
+    "method_name": "logistics.customTemplateList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询订单包裹物流（order.queryOrderLogistics）",
+    "code": "jinritemai.order.queryOrderLogistics",
+    "http_method": "POST",
+    "path": "/order/queryOrderLogistics",
+    "method_name": "order.queryOrderLogistics",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取快递公司列表（order.logisticsCompanyList）",
+    "code": "jinritemai.order.logisticsCompanyList",
+    "http_method": "POST",
+    "path": "/order/logisticsCompanyList",
+    "method_name": "order.logisticsCompanyList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取运费模板列表（freightTemplate.list）",
+    "code": "jinritemai.freightTemplate.list",
+    "http_method": "POST",
+    "path": "/freightTemplate/list",
+    "method_name": "freightTemplate.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取运费模板详情（freightTemplate.detail）",
+    "code": "jinritemai.freightTemplate.detail",
+    "http_method": "POST",
+    "path": "/freightTemplate/detail",
+    "method_name": "freightTemplate.detail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "以旧换新隐私号接通信息查询（resale.order/queryOperationOrderCallLog）",
+    "code": "jinritemai.resale.order.queryOperationOrderCallLog",
+    "http_method": "POST",
+    "path": "/resale/order/queryOperationOrderCallLog",
+    "method_name": "resale.order.queryOperationOrderCallLog",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "同步服务范围数据（gis.serviceArea/sync）",
+    "code": "jinritemai.gis.serviceArea.sync",
+    "http_method": "POST",
+    "path": "/gis/serviceArea/sync",
+    "method_name": "gis.serviceArea.sync",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询虚拟号是否抖音平台（logistics.checkDYVirtualTel）",
+    "code": "jinritemai.logistics.checkDYVirtualTel",
+    "http_method": "POST",
+    "path": "/logistics/checkDYVirtualTel",
+    "method_name": "logistics.checkDYVirtualTel",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询预校验结果接口（logistics.getAiArbitration）",
+    "code": "jinritemai.logistics.getAiArbitration",
+    "http_method": "POST",
+    "path": "/logistics/getAiArbitration",
+    "method_name": "logistics.getAiArbitration",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取物流服务商对应账户的资金日账单（logistics.queryCjAccountFLowFIleUrl）",
+    "code": "jinritemai.logistics.queryCjAccountFLowFIleUrl",
+    "http_method": "POST",
+    "path": "/logistics/queryCjAccountFLowFIleUrl",
+    "method_name": "logistics.queryCjAccountFLowFIleUrl",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "行业服务操作工单（install.ticket/operateIndustryTicket）",
+    "code": "jinritemai.install.ticket.operateIndustryTicket",
+    "http_method": "POST",
+    "path": "/install/ticket/operateIndustryTicket",
+    "method_name": "install.ticket.operateIndustryTicket",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询service列表（openCloud.backendService/list）",
+    "code": "jinritemai.openCloud.backendService.list",
+    "http_method": "POST",
+    "path": "/openCloud/backendService/list",
+    "method_name": "openCloud.backendService.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询容器服务详情（openCloud.containerService/detail）",
+    "code": "jinritemai.openCloud.containerService.detail",
+    "http_method": "POST",
+    "path": "/openCloud/containerService/detail",
+    "method_name": "openCloud.containerService.detail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询镜像列表（openCloud.v1/imageVersion/list）",
+    "code": "jinritemai.openCloud.v1.imageVersion.list",
+    "http_method": "POST",
+    "path": "/openCloud/v1/imageVersion/list",
+    "method_name": "openCloud.v1.imageVersion.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "投稿短视频（shopVideo.publishVideo）",
+    "code": "jinritemai.shopVideo.publishVideo",
+    "http_method": "POST",
+    "path": "/shopVideo/publishVideo",
+    "method_name": "shopVideo.publishVideo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "挂车视频预校验接口（shopVideo.accountShoppingCartPrecheck）",
+    "code": "jinritemai.shopVideo.accountShoppingCartPrecheck",
+    "http_method": "POST",
+    "path": "/shopVideo/accountShoppingCartPrecheck",
+    "method_name": "shopVideo.accountShoppingCartPrecheck",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "搜索图文（shopVideo.searchImageText）",
+    "code": "jinritemai.shopVideo.searchImageText",
+    "http_method": "POST",
+    "path": "/shopVideo/searchImageText",
+    "method_name": "shopVideo.searchImageText",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询加暗水印任务（shopVideo.getHiddenWaterMarkTask）",
+    "code": "jinritemai.shopVideo.getHiddenWaterMarkTask",
+    "http_method": "POST",
+    "path": "/shopVideo/getHiddenWaterMarkTask",
+    "method_name": "shopVideo.getHiddenWaterMarkTask",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询已投稿短视频列表（shopVideo.listVideo）",
+    "code": "jinritemai.shopVideo.listVideo",
+    "http_method": "POST",
+    "path": "/shopVideo/listVideo",
+    "method_name": "shopVideo.listVideo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺下所有账号信息（shopVideo.getShopAccountInfo）",
+    "code": "jinritemai.shopVideo.getShopAccountInfo",
+    "http_method": "POST",
+    "path": "/shopVideo/getShopAccountInfo",
+    "method_name": "shopVideo.getShopAccountInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询投稿需要的信息（shopVideo.getInfoForPublish）",
+    "code": "jinritemai.shopVideo.getInfoForPublish",
+    "http_method": "POST",
+    "path": "/shopVideo/getInfoForPublish",
+    "method_name": "shopVideo.getInfoForPublish",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询短视频可关联商品列表（shopVideo.listRelatableProduct）",
+    "code": "jinritemai.shopVideo.listRelatableProduct",
+    "http_method": "POST",
+    "path": "/shopVideo/listRelatableProduct",
+    "method_name": "shopVideo.listRelatableProduct",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询短视频数据接口（second.ecomInsight/queryShortVideoData）",
+    "code": "jinritemai.second.ecomInsight.queryShortVideoData",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/queryShortVideoData",
+    "method_name": "second.ecomInsight.queryShortVideoData",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询视频列表（shopVideo.searchItem）",
+    "code": "jinritemai.shopVideo.searchItem",
+    "http_method": "POST",
+    "path": "/shopVideo/searchItem",
+    "method_name": "shopVideo.searchItem",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询话题信息（shopVideo.getSugWords）",
+    "code": "jinritemai.shopVideo.getSugWords",
+    "http_method": "POST",
+    "path": "/shopVideo/getSugWords",
+    "method_name": "shopVideo.getSugWords",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取task列表（second.ecomInsight/taskList）",
+    "code": "jinritemai.second.ecomInsight.taskList",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/taskList",
+    "method_name": "second.ecomInsight.taskList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取主图视频榜单接口（second.videoTop/mainPicVideo）",
+    "code": "jinritemai.second.videoTop.mainPicVideo",
+    "http_method": "POST",
+    "path": "/second/videoTop/mainPicVideo",
+    "method_name": "second.videoTop.mainPicVideo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取任务结果（second.ecomInsight/getAigcTaskResult）",
+    "code": "jinritemai.second.ecomInsight.getAigcTaskResult",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/getAigcTaskResult",
+    "method_name": "second.ecomInsight.getAigcTaskResult",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取任务结果（second.ecomInsight/getTaskResult）",
+    "code": "jinritemai.second.ecomInsight.getTaskResult",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/getTaskResult",
+    "method_name": "second.ecomInsight.getTaskResult",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取任务详情（second.ecomInsight/taskDetail）",
+    "code": "jinritemai.second.ecomInsight.taskDetail",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/taskDetail",
+    "method_name": "second.ecomInsight.taskDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取任务账单详情（second.ecomInsight/getTaskBillDetail）",
+    "code": "jinritemai.second.ecomInsight.getTaskBillDetail",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/getTaskBillDetail",
+    "method_name": "second.ecomInsight.getTaskBillDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取图文音乐列表（shopVideo.getImageTextMusic）",
+    "code": "jinritemai.shopVideo.getImageTextMusic",
+    "http_method": "POST",
+    "path": "/shopVideo/getImageTextMusic",
+    "method_name": "shopVideo.getImageTextMusic",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取搜后承接商品列表（shopVideo.getAfterWatchRelatedProducts）",
+    "code": "jinritemai.shopVideo.getAfterWatchRelatedProducts",
+    "http_method": "POST",
+    "path": "/shopVideo/getAfterWatchRelatedProducts",
+    "method_name": "shopVideo.getAfterWatchRelatedProducts",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取活体检测结果（second.ecomInsight/getVisualValidateResult）",
+    "code": "jinritemai.second.ecomInsight.getVisualValidateResult",
+    "http_method": "POST",
+    "path": "/second/ecomInsight/getVisualValidateResult",
+    "method_name": "second.ecomInsight.getVisualValidateResult",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取短视频榜单（second.videoTop/shortVideo）",
+    "code": "jinritemai.second.videoTop.shortVideo",
+    "http_method": "POST",
+    "path": "/second/videoTop/shortVideo",
+    "method_name": "second.videoTop.shortVideo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "1、本接口用于查询达人视角下单个或批量推广商品的详情；（buyin.kolProductsDetail）",
+    "code": "jinritemai.buyin.kolProductsDetail",
+    "http_method": "POST",
+    "path": "/buyin/kolProductsDetail",
+    "method_name": "buyin.kolProductsDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品定向计划查询（buyin.orienPlanList）",
+    "code": "jinritemai.buyin.orienPlanList",
+    "http_method": "POST",
+    "path": "/buyin/orienPlanList",
+    "method_name": "buyin.orienPlanList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品状态查询（buyin.materialsProductStatus）",
+    "code": "jinritemai.buyin.materialsProductStatus",
+    "http_method": "POST",
+    "path": "/buyin/materialsProductStatus",
+    "method_name": "buyin.materialsProductStatus",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商品选品来源转链（buyin.instPickSourceConvert）",
+    "code": "jinritemai.buyin.instPickSourceConvert",
+    "http_method": "POST",
+    "path": "/buyin/instPickSourceConvert",
+    "method_name": "buyin.instPickSourceConvert",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "抖客获取近30天内奖励订单（buyin.doukeRewardOrders）",
+    "code": "jinritemai.buyin.doukeRewardOrders",
+    "http_method": "POST",
+    "path": "/buyin/doukeRewardOrders",
+    "method_name": "buyin.doukeRewardOrders",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "支持商家通过接口对已经开启推广的商品，查询商品配置的策略（buyin.promotionStrategyList）",
+    "code": "jinritemai.buyin.promotionStrategyList",
+    "http_method": "POST",
+    "path": "/buyin/promotionStrategyList",
+    "method_name": "buyin.promotionStrategyList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询定向计划作者列表（buyin.orienPlanAuthors）",
+    "code": "jinritemai.buyin.orienPlanAuthors",
+    "http_method": "POST",
+    "path": "/buyin/orienPlanAuthors",
+    "method_name": "buyin.orienPlanAuthors",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询抖客直播间分销订单（buyin.instituteOrderAds）",
+    "code": "jinritemai.buyin.instituteOrderAds",
+    "http_method": "POST",
+    "path": "/buyin/instituteOrderAds",
+    "method_name": "buyin.instituteOrderAds",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询联盟订单明细（alliance.getOrderList）",
+    "code": "jinritemai.alliance.getOrderList",
+    "http_method": "POST",
+    "path": "/alliance/getOrderList",
+    "method_name": "alliance.getOrderList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "检索精选联盟商品，需达人/抖客授权（buyin.kolMaterialsProductsSearch）",
+    "code": "jinritemai.buyin.kolMaterialsProductsSearch",
+    "http_method": "POST",
+    "path": "/buyin/kolMaterialsProductsSearch",
+    "method_name": "buyin.kolMaterialsProductsSearch",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "直播间分销物料查询（buyin.liveShareMaterial）",
+    "code": "jinritemai.buyin.liveShareMaterial",
+    "http_method": "POST",
+    "path": "/buyin/liveShareMaterial",
+    "method_name": "buyin.liveShareMaterial",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "类目查询（alliance.materialsProductCategory）",
+    "code": "jinritemai.alliance.materialsProductCategory",
+    "http_method": "POST",
+    "path": "/alliance/materialsProductCategory",
+    "method_name": "alliance.materialsProductCategory",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "联盟商家-查询店铺联盟推广（buyin.queryShopAllianceProducts）",
+    "code": "jinritemai.buyin.queryShopAllianceProducts",
+    "http_method": "POST",
+    "path": "/buyin/queryShopAllianceProducts",
+    "method_name": "buyin.queryShopAllianceProducts",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商家的联盟订单（buyin.queryShopAllianceOrder）",
+    "code": "jinritemai.buyin.queryShopAllianceOrder",
+    "http_method": "POST",
+    "path": "/buyin/queryShopAllianceOrder",
+    "method_name": "buyin.queryShopAllianceOrder",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取机构信息（buyin.institutionInfo）",
+    "code": "jinritemai.buyin.institutionInfo",
+    "http_method": "POST",
+    "path": "/buyin/institutionInfo",
+    "method_name": "buyin.institutionInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取达人直播间分享链接（buyin.kolLiveShare）",
+    "code": "jinritemai.buyin.kolLiveShare",
+    "http_method": "POST",
+    "path": "/buyin/kolLiveShare",
+    "method_name": "buyin.kolLiveShare",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "达人抖客红包详情（buyin.distributionRedpackDetailList）",
+    "code": "jinritemai.buyin.distributionRedpackDetailList",
+    "http_method": "POST",
+    "path": "/buyin/distributionRedpackDetailList",
+    "method_name": "buyin.distributionRedpackDetailList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "选品订单明细查询接口（buyin.instituteOrderPick）",
+    "code": "jinritemai.buyin.instituteOrderPick",
+    "http_method": "POST",
+    "path": "/buyin/instituteOrderPick",
+    "method_name": "buyin.instituteOrderPick",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "分页查询尺寸模板（supplyCenter.cargo/getComponentTemplate）",
+    "code": "jinritemai.supplyCenter.cargo.getComponentTemplate",
+    "http_method": "POST",
+    "path": "/supplyCenter/cargo/getComponentTemplate",
+    "method_name": "supplyCenter.cargo.getComponentTemplate",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询采购单信息（supplyCenter.order/query）",
+    "code": "jinritemai.supplyCenter.order.query",
+    "http_method": "POST",
+    "path": "/supplyCenter/order/query",
+    "method_name": "supplyCenter.order.query",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "精选货源获取类目品牌（supplyCenter.base/brand）",
+    "code": "jinritemai.supplyCenter.base.brand",
+    "http_method": "POST",
+    "path": "/supplyCenter/base/brand",
+    "method_name": "supplyCenter.base.brand",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "精选货源获取类目属性（supplyCenter.base/cateProperty）",
+    "code": "jinritemai.supplyCenter.base.cateProperty",
+    "http_method": "POST",
+    "path": "/supplyCenter/base/cateProperty",
+    "method_name": "supplyCenter.base.cateProperty",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "精选货源获取类目（supplyCenter.base/category）",
+    "code": "jinritemai.supplyCenter.base.category",
+    "http_method": "POST",
+    "path": "/supplyCenter/base/category",
+    "method_name": "supplyCenter.base.category",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "精选货源获取货品列表（supplyCenter.cargo/list）",
+    "code": "jinritemai.supplyCenter.cargo.list",
+    "http_method": "POST",
+    "path": "/supplyCenter/cargo/list",
+    "method_name": "supplyCenter.cargo.list",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "精选货源采购单推进确认收货状态（supplyCenter.order/confirm）",
+    "code": "jinritemai.supplyCenter.order.confirm",
+    "http_method": "POST",
+    "path": "/supplyCenter/order/confirm",
+    "method_name": "supplyCenter.order.confirm",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "素材中心--素材搜索接口（supplyCenter.material/search）",
+    "code": "jinritemai.supplyCenter.material.search",
+    "http_method": "POST",
+    "path": "/supplyCenter/material/search",
+    "method_name": "supplyCenter.material.search",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量获取视频信息（material.mGetPlayInfo）",
+    "code": "jinritemai.material.mGetPlayInfo",
+    "http_method": "POST",
+    "path": "/material/mGetPlayInfo",
+    "method_name": "material.mGetPlayInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "搜索文件夹（material.searchFolder）",
+    "code": "jinritemai.material.searchFolder",
+    "http_method": "POST",
+    "path": "/material/searchFolder",
+    "method_name": "material.searchFolder",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查看文件夹详情（material.getFolderInfo）",
+    "code": "jinritemai.material.getFolderInfo",
+    "http_method": "POST",
+    "path": "/material/getFolderInfo",
+    "method_name": "material.getFolderInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "根据素材id查素材详情（material.queryMaterialDetail）",
+    "code": "jinritemai.material.queryMaterialDetail",
+    "http_method": "POST",
+    "path": "/material/queryMaterialDetail",
+    "method_name": "material.queryMaterialDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取商家容量详情（material.get_cap_info）",
+    "code": "jinritemai.material.get_cap_info",
+    "http_method": "POST",
+    "path": "/material/get_cap_info",
+    "method_name": "material.get_cap_info",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "分页查询营销玩法（marketing.pageQueryActivity）",
+    "code": "jinritemai.marketing.pageQueryActivity",
+    "http_method": "POST",
+    "path": "/marketing/pageQueryActivity",
+    "method_name": "marketing.pageQueryActivity",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "支持根据特定条件查询营销可用商品（marketing.queryAvailableProduct）",
+    "code": "jinritemai.marketing.queryAvailableProduct",
+    "http_method": "POST",
+    "path": "/marketing/queryAvailableProduct",
+    "method_name": "marketing.queryAvailableProduct",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺优惠券信息，与商家工作台优惠券管理模块功能一致（marketing.queryShopCouponList）",
+    "code": "jinritemai.marketing.queryShopCouponList",
+    "http_method": "POST",
+    "path": "/marketing/queryShopCouponList",
+    "method_name": "marketing.queryShopCouponList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取叶子类目可选的账号模板id（topup.accountTemplateList）",
+    "code": "jinritemai.topup.accountTemplateList",
+    "http_method": "POST",
+    "path": "/topup/accountTemplateList",
+    "method_name": "topup.accountTemplateList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "合单校验接口（order.mergeV2）",
+    "code": "jinritemai.order.mergeV2",
+    "http_method": "POST",
+    "path": "/order/mergeV2",
+    "method_name": "order.mergeV2",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商家服务单详情（order.serviceDetail）",
+    "code": "jinritemai.order.serviceDetail",
+    "http_method": "POST",
+    "path": "/order/serviceDetail",
+    "method_name": "order.serviceDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查看商家开票列表（order.invoiceList）",
+    "code": "jinritemai.order.invoiceList",
+    "http_method": "POST",
+    "path": "/order/invoiceList",
+    "method_name": "order.invoiceList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询统计销量结果（bigCustomer.queryCounting）",
+    "code": "jinritemai.bigCustomer.queryCounting",
+    "http_method": "POST",
+    "path": "/bigCustomer/queryCounting",
+    "method_name": "bigCustomer.queryCounting",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "根据收件人姓名、手机号查询订单（order.searchByReceiver）",
+    "code": "jinritemai.order.searchByReceiver",
+    "http_method": "POST",
+    "path": "/order/searchByReceiver",
+    "method_name": "order.searchByReceiver",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "订单列表查询（order.searchList）",
+    "code": "jinritemai.order.searchList",
+    "http_method": "POST",
+    "path": "/order/searchList",
+    "method_name": "order.searchList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "订单详情查询（order.orderDetail）",
+    "code": "jinritemai.order.orderDetail",
+    "http_method": "POST",
+    "path": "/order/orderDetail",
+    "method_name": "order.orderDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "资金流水明细文件下载(境内)（order.downloadShopAccountItemFile）",
+    "code": "jinritemai.order.downloadShopAccountItemFile",
+    "http_method": "POST",
+    "path": "/order/downloadShopAccountItemFile",
+    "method_name": "order.downloadShopAccountItemFile",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "商家拉单（dutyFree.orderList）",
+    "code": "jinritemai.dutyFree.orderList",
+    "http_method": "POST",
+    "path": "/dutyFree/orderList",
+    "method_name": "dutyFree.orderList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "批量获取货品详情（supplyChain.batchGetCargoDetail）",
+    "code": "jinritemai.supplyChain.batchGetCargoDetail",
+    "http_method": "POST",
+    "path": "/supplyChain/batchGetCargoDetail",
+    "method_name": "supplyChain.batchGetCargoDetail",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询品牌列表（supplyChain.queryBrandList）",
+    "code": "jinritemai.supplyChain.queryBrandList",
+    "http_method": "POST",
+    "path": "/supplyChain/queryBrandList",
+    "method_name": "supplyChain.queryBrandList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询店铺单包裹信息（order.queryOrderPackageInfo）",
+    "code": "jinritemai.order.queryOrderPackageInfo",
+    "http_method": "POST",
+    "path": "/order/queryOrderPackageInfo",
+    "method_name": "order.queryOrderPackageInfo",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "查询货品列表（supplyChain.queryCargoList）",
+    "code": "jinritemai.supplyChain.queryCargoList",
+    "http_method": "POST",
+    "path": "/supplyChain/queryCargoList",
+    "method_name": "supplyChain.queryCargoList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "类目属性规则查询（supplyChain.queryCatePropList）",
+    "code": "jinritemai.supplyChain.queryCatePropList",
+    "http_method": "POST",
+    "path": "/supplyChain/queryCatePropList",
+    "method_name": "supplyChain.queryCatePropList",
+    "default_params": {},
+    "target_table": "ingested_data"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "获取交易订单状态（crossBorder.getTradeOrderStatus）",
+    "code": "jinritemai.crossBorder.getTradeOrderStatus",
+    "http_method": "POST",
+    "path": "/crossBorder/getTradeOrderStatus",
+    "method_name": "crossBorder.getTradeOrderStatus",
+    "default_params": {},
+    "target_table": "ingested_data"
+  }
+]

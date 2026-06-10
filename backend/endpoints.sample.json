@@ -1,0 +1,22 @@
+[
+  {
+    "platform": "jinritemai",
+    "name": "order/searchList",
+    "code": "jinritemai.order_search_list",
+    "http_method": "GET",
+    "path": "/order/searchList",
+    "default_params": { "size": 50 },
+    "target_table": "orders",
+    "schedule_cron": "*/15 * * * *",
+    "incremental_key": "update_time"
+  },
+  {
+    "platform": "jinritemai",
+    "name": "order/orderDetail",
+    "code": "jinritemai.order_detail",
+    "http_method": "GET",
+    "path": "/order/orderDetail",
+    "default_params": {},
+    "target_table": "orders"
+  }
+]

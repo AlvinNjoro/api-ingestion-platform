@@ -1,0 +1,30 @@
+# One command to run the whole stack locally: docker compose up
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ingestion
+    ports: ["5433:5432"]
+    volumes: ["pgdata:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d ingestion"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 40s
+
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgres://postgres:postgres@db:5432/ingestion
+      WEBHOOK_PORT: 4000
+      API_PORT: 4001
+      WEBHOOK_SECRET_MOCK: dev-secret
+    ports: ["4000:4000", "4001:4001"]
+    depends_on:
+      db: { condition: service_healthy }
+
+volumes:
+  pgdata:

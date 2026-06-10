@@ -1,0 +1,37 @@
+{
+  "name": "api-ingestion-backend",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node --loader tsx dist/index.js",
+    "build": "tsc -p tsconfig.json",
+    "import": "tsx src/import-endpoints.ts",
+    "simulate": "tsx src/simulate-callback.ts",
+    "get-token": "tsx src/get-token.ts",
+    "pull": "tsx src/pull-qianchuan.ts",
+    "discover": "tsx src/discover.ts",
+    "pull-orders": "tsx src/pull-orders.ts",
+    "order-config": "tsx src/order-config.ts",
+    "dd-token": "tsx src/dd-get-token.ts",
+    "dd-orders": "tsx src/pull-dd-orders.ts",
+    "dd-call": "tsx src/dd-call.ts",
+    "oe-call": "tsx src/oe-call.ts",
+    "dd-order-details": "tsx src/pull-dd-order-details.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "pg-boss": "^10.1.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.0",
+    "@types/pg": "^8.11.6",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}
